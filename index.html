@@ -1,55 +1,60 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="fr-FR">
 
-  <head>
-     <title>Notre Google</title>
-     <meta charset="utf-8">
-     <link href="https://images.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png" rel="shortcut icon">
-     <script src="https://kit.fontawesome.com/d70a89f18c.js" crossorigin="anonymous"></script>
-     <style>
+<head>
+    <title>Notre Google</title>
+    <meta charset="utf-8">
+    <link href="https://images.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png"
+        rel="shortcut icon">
+    <script src="https://kit.fontawesome.com/d70a89f18c.js" crossorigin="anonymous"></script>
+    <style>
         html {
             color: rgba(0, 0, 0, 0.877);
-            font-family: arial,sans-serif;
+            font-family: arial, sans-serif;
         }
-       /*Modifs btn Isa */       
-      #btn {
-        text-align: right;
-      }
-      #btn a {
-        text-decoration: none;
-      }
-      #btn a:hover {
-        opacity: 0.85;
-        text-decoration: underline;
-       }
-        /*boutton "Connexion" bleu*/
-        #connexion{
-          font-style: bold;
-          background-color:rgb(69, 132, 240);    
-          color: whitesmoke;
-          padding-left: 15px;
-          padding-right: 15px;
-          padding-top: 7px;
-          padding-bottom: 7px;
-          border-radius: 3px;
+
+        /*Modifs Isa 
+         btn top*/
+        #btn {
+            text-align: right;
         }
-       #connexion:hover {
-          box-shadow:
-            2px 2px 5px rgb(69, 132, 240),-2px 2px 5px rgb(69, 132, 240),
-            2px -2px 5px rgb(69, 132, 240), -2px -2px 5px rgb(69, 132, 240);
-            text-decoration: none!important;
-      }
-       
-       #search {
-         text-aligne: center;
-       }
+
+        #btn a {
+            text-decoration: none;
+        }
+
+        #btn a:hover {
+            opacity: 0.85;
+            text-decoration: underline;
+        }
+
+        /*Modifs Maël
+        boutton "Connexion" bleu*/
+        #connexion {
+            font-style: bold;
+            background-color: rgb(69, 132, 240);
+            color: whitesmoke;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 3px;
+        }
+
+        #connexion:hover {
+            box-shadow:
+                2px 2px 5px rgb(69, 132, 240), -2px 2px 5px rgb(69, 132, 240),
+                2px -2px 5px rgb(69, 132, 240), -2px -2px 5px rgb(69, 132, 240);
+            text-decoration: none !important;
+        }
+
         button {
-            background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+            background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
             background-color: #f2f2f2;
             border: 1px solid #f2f2f2;
             border-radius: 4px;
             color: #5F6368;
-            font-family: arial,sans-serif;
+            font-family: arial, sans-serif;
             font-size: 14px;
             margin: 11px 4px;
             padding: 0 16px;
@@ -60,83 +65,82 @@
             cursor: pointer;
             user-select: none;
         }
-        
+
         button:hover {
-            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-            background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+            background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
             background-color: #f8f8f8;
             border: 1px solid #c6c6c6;
             color: #222;
         }
-       
-      /*Modifs footer Isa */
-      #footer {
-        position:absolute;
-        bottom:0;
-        background: #f2f2f2;
-        line-height: 40px;
-        min-width: 980px;
-        border-top: 1px solid #e4e4e4;
-      }
-     </style>
- </head>
 
-  <body>
-     <div id="body">
+        /*Modifs footer Isa */
+        #footer {
+            position: absolute;
+            bottom: 0;
+            background: #f2f2f2;
+            line-height: 40px;
+            min-width: 980px;
+            border-top: 1px solid #e4e4e4;
+        }
+    </style>
+</head>
 
-         <div id="main">
-              <div id="btn">
+<body>
+    <div id="body">
+
+        <div id="main">
+            <div id="btn">
                 <a>Gmail</a>
                 <a>Image</a>
                 <a><i class="fas fa-th"></i></a>
                 <a id="connexion">Connexion</a>
-              </div>
-              <center>
-              <div id="logo">
-                <img src="google.png" alt="Logo Google">  
-                </div>
-              </div>
-              <div id="search">
+            </div>
+        </div>
+        <center>
+            <div id="logo">
+                <img src="google.png" alt="Logo Google">
+            </div>
+            <div id="search">
                 <form>
-                  <div id="br">
-                    <div id="loupe"><i class="fas fa-search"></i></div>
-                    <div>
-                      <input></input>
+                    <div id="br">
+                        <div id="loupe"><i class="fas fa-search"></i></div>
+                        <div>
+                            <input></input>
+                        </div>
+                        <div id="mic"><i class="fas fa-microphone"></i></div>
                     </div>
-                    <div id="mic"><i class="fas fa-microphone"></i></div>
-                  </div>
-                </div>
-                <button>Recherche Google</button>
-                <button>J'ai de la chance</button>
+                    <button>Recherche Google</button>
+                    <button>J'ai de la chance</button>
                 </form>
-              </div>
-              <div id="lang">
-              </div>
-            </center>
-         </div>
+            </div>
+            <div id="lang">
+            </div>
+        </center>
+    </div>
 
-         <div id="footer">
-           <div id="footer-1">
+    <div id="footer">
+        <div id="footer-1">
             <span class="footer-1">France</span>
-          </div>
-          <span class="footer-2">
+        </div>
+        <span class="footer-2">
             <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
             <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
             <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
             <a href="https://policies.google.com/terms?fg=1">Conditions</a>
-          </span>
-          <span class="footer-3">
+        </span>
+        <span class="footer-3">
             <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
-          </span>
-          <span class="footer-3">
+        </span>
+        <span class="footer-3">
             <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
             <a href="https://support.google.com/websearch/answer/7585859">Entreprise</a>
             <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">A propos</a>
             <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google?</a>
-          </span>
-         </div>
-     </div>
+        </span>
+    </div>
+    </div>
 
- </body>
+</body>
 
- </html>
+</html>
