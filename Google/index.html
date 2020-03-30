@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <title>Notre Google</title>
+    <meta charset="utf-8">
+    <link href="https://images.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png"
+        rel="shortcut icon">
+    <script src="https://kit.fontawesome.com/d70a89f18c.js" crossorigin="anonymous"></script>
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+            color: rgba(0, 0, 0, 0.877);
+            font-family: arial, sans-serif;min-width: 1139px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /*Modifs Isa 
+         btn top*/
+        #btn {
+            text-align: right;
+            position: absolute;
+            right: 0;
+            top: 34px;
+        }
+
+        #btn a {
+            text-decoration: none;
+        }
+
+        #btn a:hover {
+            opacity: 0.85;
+            text-decoration: underline;
+        }
+
+        /*Modifs Maël
+        boutton "Connexion" bleu*/
+        #connexion {
+            font-style: bold;
+            background-color: rgb(69, 132, 240);
+            color: whitesmoke;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 3px;
+        }
+
+        #connexion:hover {
+            box-shadow:
+                2px 2px 5px rgb(69, 132, 240), -2px 2px 5px rgb(69, 132, 240),
+                2px -2px 5px rgb(69, 132, 240), -2px -2px 5px rgb(69, 132, 240);
+            text-decoration: none !important;
+        }
+
+        #logo {
+            margin-top: 89px;
+        }
+
+        button {
+            background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5F6368;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        button:hover {
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+            background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+            background-color: #f8f8f8;
+            border: 1px solid #c6c6c6;
+            color: #222;
+        }
+
+        /*Modifs footer Isa */
+        #footer-main {
+            position: absolute;
+            bottom: 0;
+            background: #f2f2f2;
+            line-height: 40px;
+            min-width: 980px;
+            border-top: 1px solid #e4e4e4;
+            width: 100%;
+            /*JP*/
+        }
+        #inp {
+            width: calc(100% - 45px);
+            height: calc(100% - 37px);
+            display: flex;
+            flex: 100%;
+            float: left;
+            border: none;
+        }
+        #loupe {
+            margin: 13px 8px 12px 0;
+            display: block;
+            float: left;
+            border: none;
+            vertical-align:middle;
+        }
+        #mic {
+            margin:9px 0;
+            font-size: 19px;
+            display: block;
+            float: right;
+            border: none;
+            vertical-align:middle;
+        }
+
+        #br {
+            width: max-content;
+            border-radius: 24px;
+            border: solid 1px lightgray;
+            padding: 0 5px
+        }
+
+        input:focus {
+            outline:none;
+        }
+
+        input {
+            width: 100%;
+            border: none;
+            font-size: 16px;
+            margin: 5px 0;
+            padding: 7px 0;
+        }
+
+        #br:hover {
+            box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
+            border-color: rgba(223,225,229,0);
+            text-decoration: none !important;
+        }
+
+        #footer-main a:hover {
+            text-decoration: underline;
+        }
+
+        #footer-main a {
+            display: inline-block;
+            color: #5f6368;
+            text-decoration: none;
+        }
+
+        #footer-top-1 {
+            color: rgba(0, 0, 0, .54);
+        }
+
+        #footer-bottom {
+            border-top: 1px solid #e4e4e4;
+            width: 100%;
+        }
+
+        #footer-left {
+            float: left;
+            white-space: nowrap;
+        }
+
+        #footer-right {
+            float: right;
+            white-space: nowrap;
+        }
+
+        #ooter-top,
+        #footer-left a {
+        padding-left: 30px;
+        }
+
+        #footer-right a {
+        padding-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="body">
+
+        <div id="main">
+            <div id="btn">
+                <a>Gmail</a>
+                <a>Image</a>
+                <a><i class="fas fa-th"></i></a>
+                <a id="connexion">Connexion</a>
+            </div>
+            <center>
+                <div id="logo">
+                    <img src="google.png" alt="Logo Google" style="padding: 190px 0 0;">
+                </div>
+                <div id="search">
+                    <div style="width: max-content;">
+                    <form>
+                        <div id="br" style="width: 582px; padding: 0 16px 0 16px">
+                            <div style="clear: both;"></div>
+                            <div id="loupe"><i class="fas fa-search"></i></div>
+                            <div id="inp">
+                                <input></input>
+                            </div>
+                            <div id="mic"><i class="fas fa-microphone"></i></div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <button>Recherche Google</button>
+                        <button>J'ai de la chance</button>
+                    </form>
+                    </div>
+                </div>
+                <div id="lang">
+                </div>
+            </center>
+        </div>
+    </div>
+
+    </div>
+    <div id="footer-main">
+        <div id="footer-top-1">
+            <span id="footer-top">France</span>
+        </div>
+        <div id="footer-bottom">
+            <span id="footer-left">
+                <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
+                <a href="https://support.google.com/websearch/answer/7585859">Entreprise</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">A propos</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google?</a>
+                <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
+            </span>
+            <span id="footer-right">
+                <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
+                <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
+                <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+                <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+            </span>
+        </div>
+    </div>
+
+</body>
+
+</html>
