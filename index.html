@@ -89,6 +89,15 @@
             border-top: 1px solid #e4e4e4;
             width: 100%;/*JP*/
         }
+        #loupe,
+        #mic,
+        #inp {
+            display: block;
+            float: left;
+        }
+        #br {
+            width: max-content;
+        }
     </style>
 </head>
 
@@ -109,11 +118,13 @@
             <div id="search">
                 <form>
                     <div id="br">
+                        <div style="clear: both;"></div>
                         <div id="loupe"><i class="fas fa-search"></i></div>
                         <div>
                             <input></input>
                         </div>
                         <div id="mic"><i class="fas fa-microphone"></i></div>
+                        <div style="clear: both;"></div>
                     </div>
                     <button>Recherche Google</button>
                     <button>J'ai de la chance</button>
