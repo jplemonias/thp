@@ -65,12 +65,12 @@ padding: 7px 0;
 /*Modifs Isa 
     btn top*/
 #btn {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-around;
   font-size: 13px;
-  text-align: right;
-  position: fixed;
-  right: 0;
-  top: 16px;
-  margin: 0 15px;
+  width: max-content;
+  padding-top: 16px;
 }
 
 #btn a {
@@ -99,7 +99,7 @@ padding: 7px 0;
 }
 
 #logo {
-  margin-top: 89px;
+  margin-top: 43px;
   height: 233px;
 }
 
