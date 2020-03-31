@@ -306,6 +306,27 @@ input {
   -webkit-text-decoration-color: #04c4b4!important;
   text-decoration-color: #04c4b4!important;
 }
+
+#close:hover {
+  border-color: #04c4b4;
+  box-shadow: 3px 3px 10px #04c4b483,
+  -3px 3px 10px #04c4b483,
+  3px -3px 10px #04c4b483,
+  -3px -3px 10px #04c4b483,
+  inset 3px 3px 10px #04c4b483,
+  inset -3px 3px 10px #04c4b483,
+  inset 3px -3px 10px #04c4b483,
+  inset -3px -3px 10px #04c4b483;
+   background: -webkit-gradient(linear,left top,right top,
+      from(#d400ff),to(#04c4b4));
+   background: linear-gradient(90deg,#d400ff,#04c4b4);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -webkit-box-decoration-break: clone;
+   box-decoration-break: clone;
+   -webkit-text-decoration-color: #04c4b4!important;
+   text-decoration-color: #04c4b4!important;
+}
 /*****************
 *   Psycho@ctiF  *
 *       Pe@cE    *
