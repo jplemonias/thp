@@ -39,7 +39,7 @@
     #btn {
       font-size: 13px;
       text-align: right;
-      position: absolute;
+      position: fixed;
       right: 0;
       top: 16px;
       margin: 0 15px;
@@ -102,8 +102,9 @@
     }
 
     /*Modifs footer Isa */
-    #footer-main {
-      position: absolute;
+    #footer-main,
+    #footer-main2 {
+      position: fixed;
       bottom: 0;
       background: #f2f2f2;
       line-height: 40px;
@@ -163,7 +164,8 @@
       text-decoration: none !important;
     }
 
-    #footer-main a {
+    #footer-main a,
+    #footer-main2 a {
       display: inline-block;
       color: #5f6368;
     }
@@ -237,6 +239,27 @@
       height: 30px;
       width: 30px;
       display: block;
+    }
+
+    #footer-main2 {
+      display: none;
+    }
+
+    @media (max-width:1196px) {
+
+      #left,
+      #right {
+        margin: 0 auto;
+        width: min-content;
+      }
+
+      #footer-main2 {
+        display: block;
+      }
+
+      #footer-main {
+        display: none;
+      }
     }
   </style>
   <script>
@@ -329,19 +352,43 @@
     <div id="footer-top">
       <span id="footer-top">France</span>
     </div>
-    <div id="footer-bottom">
+    <div id="left">
       <span id="footer-left">
         <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
         <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
         <a href="https://about.google/">&Agrave; propos</a>
         <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
       </span>
+    </div>
+    <div id="right">
       <span id="footer-right">
         <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
         <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
         <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
         <a href="https://policies.google.com/terms?fg=1">Conditions</a>
         <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
+      </span>
+    </div>
+  </div>
+  <div id="footer-main2">
+    <div id="footer-top">
+      <span id="footer-top">France</span>
+    </div>
+    <div id="left">
+      <span id="footer-left">
+        <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
+        <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
+        <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+        <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+        <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
+      </span>
+    </div>
+    <div id="right">
+      <span id="footer-right">
+        <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
+        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
+        <a href="https://about.google/">&Agrave; propos</a>
+        <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
       </span>
     </div>
   </div>
