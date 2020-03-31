@@ -123,14 +123,15 @@
     }
 
     #loupe {
-      margin: 13px 8px 13px 0;
+      margin: 12px 2px 8px 0;
       display: block;
       float: left;
       border: none;
+      opacity: 0.4;
     }
 
     #mic {
-    margin: 10px 0 9px 5px;
+      margin: 10px -2px 5px 5px;
       font-size: 19px;
       display: block;
       float: right;
@@ -252,11 +253,13 @@
     <div id="main">
       <div id="btn">
         <div style="padding-right: 15px;">
-          <div style="padding-left: 15px;padding-top: 7px;"><a id="connexion" href="https://accounts.google.com/">Connexion</a></div>
+          <div style="padding-left: 15px;padding-top: 7px;"><a id="connexion"
+              href="https://accounts.google.com/">Connexion</a></div>
           <div><a onclick="cool()" class="neuf"></a></div>
         </div>
         <div style="padding-right: 15px;">
-          <div style="padding-left: 15px;padding-top: 7px;"><a href="https://www.google.fr/imghp?hl=fr&tab=wi&authuser=0&ogbl">Images</a></div>
+          <div style="padding-left: 15px;padding-top: 7px;"><a
+              href="https://www.google.fr/imghp?hl=fr&tab=wi&authuser=0&ogbl">Images</a></div>
           <div style="padding-top: 7px;"><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a></div>
         </div>
       </div>
@@ -274,22 +277,27 @@
         <div id="search" style="margin-top:-5px;">
           <div style="width: max-content;">
             <form>
-              <div id="br" style="width: 550px; padding: 0 16px 0 16px">
+              <div id="br" style="width: 550px; padding: 0 17px 0 14px;">
                 <div style="clear: both;"></div>
-                <div id="loupe"><i style="color: #9AA0A6;" class="fas fa-search"></i></div>
+                <div id="loupe"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" style="height: 20px;" viewBox="0 0 24 24">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59
+                    4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                  </svg>
+                  <!--<i style="color: #9AA0A6;" class="fas fa-search"></i>-->
+                </div>
                 <div id="inp">
                   <input></input>
                 </div>
                 <script>
-                function attribuerFocus()
-                {
-                document.getElementById(inp).focus();
-                }
+                  function attribuerFocus() {
+                    document.getElementById(inp).focus();
+                  }
                 </script>
                 <div id="mic"><img src="micgoogle.png" style="width: 24px;">
                   <!--<i class="fas fa-microphone"></i>
                   alternative avec Fa-->
-                  </div>
+                </div>
                 <div style="clear: both;"></div>
               </div>
               <div style="clear: both;"></div>
