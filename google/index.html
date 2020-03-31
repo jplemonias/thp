@@ -7,273 +7,15 @@
   <link href="https://images.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png"
     rel="shortcut icon">
   <script src="https://kit.fontawesome.com/d70a89f18c.js" crossorigin="anonymous"></script>
-  <style>
-    html {
-      height: 100%;
-      width: 100%;
-      color: rgba(0, 0, 0, 0.877);
-      font-family: arial, sans-serif;
-      min-width: 1139px;
-    }
-
-    body {
-      margin: 0;
-    }
-
-    a {
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    a:visited {
-      color: #609;
-    }
-
-    a:hover {
-      color: #1a0dab;
-      text-decoration: underline;
-    }
-
-    /*Modifs Isa 
-         btn top*/
-    #btn {
-      font-size: 13px;
-      text-align: right;
-      position: fixed;
-      right: 0;
-      top: 16px;
-      margin: 0 15px;
-    }
-
-    #btn a {
-      color: rgba(0, 0, 0, 0.87);
-      white-space: nowrap;
-    }
-
-    #btn a:hover {
-      opacity: 0.85;
-    }
-
-    /*Modifs Maël
-        boutton "Connexion" bleu*/
-    #connexion {
-      background-color: #4285f4;
-      font-weight: bold;
-      color: whitesmoke !important;
-      padding: 8px 13px 7px;
-      border-radius: 2px;
-    }
-
-    #connexion:hover {
-      box-shadow: 0px 1px 1px #4285f4;
-      text-decoration: none !important;
-      opacity: 1 !important;
-    }
-
-    #logo {
-      margin-top: 89px;
-      height: 233px;
-    }
-
-    button {
-      background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
-      background-color: #f2f2f2;
-      border: 1px solid #f2f2f2;
-      border-radius: 4px;
-      color: #5F6368;
-      font-family: arial, sans-serif;
-      font-size: 14px;
-      margin: 11px 4px;
-      padding: 0 16px;
-      line-height: 27px;
-      height: 36px;
-      min-width: 54px;
-      text-align: center;
-      cursor: pointer;
-      user-select: none;
-    }
-
-    button:hover {
-      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-      background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
-      background-color: #f8f8f8;
-      border: 1px solid #c6c6c6;
-      color: #222;
-    }
-
-    /*Modifs footer Isa */
-    #footer-main,
-    #footer-main2 {
-      position: fixed;
-      bottom: 0;
-      background: #f2f2f2;
-      line-height: 40px;
-      min-width: 980px;
-      border-top: 1px solid #e4e4e4;
-      width: 100%;
-      /*JP*/
-      font-size: 14px;
-    }
-
-    #inp {
-      width: calc(100% - 52px);
-      display: flex;
-      flex: 100%;
-      float: left;
-      border: none;
-    }
-
-    #loupe {
-      margin: 12px 2px 8px 0;
-      display: block;
-      float: left;
-      border: none;
-      opacity: 0.4;
-    }
-
-    #mic {
-      margin: 10px -2px 5px 5px;
-      font-size: 19px;
-      display: block;
-      float: right;
-      border: none;
-    }
-
-    #br {
-      width: 550px;
-      padding: 0 17px 0 14px;
-      border-radius: 24px;
-      border: solid 1px #dfe1e5;
-    }
-
-    input:focus {
-      outline: none;
-    }
-
-    input {
-      width: 100%;
-      border: none;
-      font-size: 16px;
-      margin: 5px 0;
-      padding: 7px 0;
-    }
-
-    #br:hover {
-      box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-      border-color: rgba(223, 225, 229, 0);
-      text-decoration: none !important;
-    }
-
-    #footer-main a,
-    #footer-main2 a {
-      display: inline-block;
-      color: #5f6368;
-    }
-
-    #footer-top {
-      font-size: 15px;
-      color: rgba(0, 0, 0, .54);
-    }
-
-    #footer-bottom {
-      font-size: 14px;
-      border-top: 1px solid #e4e4e4;
-      width: calc(100% - 7px);
-      margin-left: 7px;
-    }
-
-    #footer-left {
-      float: left;
-      white-space: nowrap;
-    }
-
-    #footer-right {
-      float: right;
-      white-space: nowrap;
-      margin-right: 30px;
-    }
-
-    #footer-top {
-      padding-left: 15px;
-    }
-
-    #footer-right a,
-    #footer-left a {
-      padding-left: 23px;
-    }
-
-    #flr {
-      clear: both;
-    }
-
-    #btn div {
-      float: right;
-      color: #000;
-    }
-
-    .fas.fa-th {
-      opacity: .55;
-    }
-
-    .fas.fa-th:hover {
-      opacity: .85;
-    }
-
-    .fas.fa-microphone {
-      background: linear-gradient(180deg, #4285f4, #4285f4, #4285f4, #fbbc05, #ea4335, #ea4335);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    #covid {
-      font-size: small;
-      margin-bottom: 32px;
-    }
-
-    .neuf {
-      background-image: url('googleico.png');
-      background-size: 528px 68px;
-      background-position: -132px -38px;
-      box-sizing: border-box;
-      opacity: .55;
-      height: 30px;
-      width: 30px;
-      display: block;
-    }
-
-    #footer-main2 {
-      display: none;
-    }
-
-    @media (max-width:1196px) {
-
-      #left,
-      #right {
-        margin: 0 auto;
-        width: min-content;
-      }
-
-      #footer-main2 {
-        display: block;
-      }
-
-      #footer-main {
-        display: none;
-      }
-    }
-  </style>
-  <script>
-    function cool() {
-      document.getElementById('app').style.visibility = "visible";
-      document.getElementById('app2').style.visibility = "visible";
-    }
-  </script>
+  <link rel="stylesheet" href="public/css/google.css">
+  <script src="public/js/appgoogle.js"></script>
 </head>
 
 <body>
   <div id="body">
 
     <div id="main">
+
       <div id="btn">
         <div style="padding-right: 15px;">
           <div style="padding-left: 15px;padding-top: 7px;"><a id="connexion"
@@ -286,22 +28,30 @@
           <div style="padding-top: 7px;"><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a></div>
         </div>
       </div>
+
       <div id="app"
         style="overflow: hidden; top: 0px; width: 340px; z-index: 991; position: absolute; height: 468px; margin-top: 56px;
         max-height: calc(-56px + 100vh); right: 0px; margin-right: 27px; transition: height 0.3s ease-in-out 0s; visibility: hidden;">
         <iframe id="app2" ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no"
           tabindex="0" vspace="0" width="100%" role="presentation" id="I0_1585614304087" name="I0_1585614304087"
           src="https://ogs.google.fr/u/0/widget/app?origin=https%3A%2F%2Fwww.google.fr&pid=1&spid=1&hl=fr&gm=&usegapi=1#id=I0_1585614304087&_gfid=I0_1585614304087&parent=https%3A%2F%2Fwww.google.fr&pfname=&rpctoken=40980021&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.OfYsKuVZ3qI.O%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAHpOoo8UDq_6isr1vipw5cUlPTPPdx3_0A%2Fm%3D__features__"
-          style="height: 100%; visibility: hidden;"></iframe></div>
+          style="height: 100%; visibility: hidden;">
+        </iframe>
+      </div>
+
       <center>
+
         <div id="logo">
-          <img src="google.png" alt="Logo Google" style="padding: 109px 0 0;">
+          <img src="public/img/google.png" alt="Logo Google" style="padding: 109px 0 0;">
         </div>
+
         <div id="search" style="margin-top:-5px;">
           <div style="width: max-content;">
             <form>
+
               <div id="br">
                 <div style="clear: both;"></div>
+
                 <div id="loupe"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" style="height: 20px;"
                     viewBox="0 0 24 24">
                     <path
@@ -309,36 +59,35 @@
                     4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
                     </path>
                   </svg>
-                  <!--<i style="color: #9AA0A6;" class="fas fa-search"></i>-->
                 </div>
+
                 <div id="inp">
                   <input></input>
                 </div>
-                <script>
-                  function attribuerFocus() {
-                    document.getElementById(inp).focus();
-                  }
-                </script>
-                <div id="mic"><img src="micgoogle.png" style="width: 24px;">
+                <div id="mic"><img src="public/img/micgoogle.png" style="width: 24px;">
                   <!--<i class="fas fa-microphone"></i>
                   alternative avec Fa-->
                 </div>
                 <div style="clear: both;"></div>
               </div>
               <div style="clear: both;"></div>
+
               <div style="float: left;margin-top: 18px; width: 570px; padding-bottom: 13px;">
                 <button>Recherche Google</button>
                 <button>J'ai de la chance</button>
               </div>
               <div style="clear: both;"></div>
+
             </form>
           </div>
         </div>
+
         <div id="covid" style="height: 45px;">
-          <img src="dothefive_90x90t.gif" style="width: 45px; margin: 0 5px 0 0;vertical-align: middle;">
+          <img src="public/img/dothefive_90x90t.gif" style="width: 45px; margin: 0 5px 0 0;vertical-align: middle;">
           <a href="https://www.google.fr/search?q=coronavirus+conseils&fbx=dothefive&hl=fr"
             style="vertical-align: middle;">5 GESTES "BARRIÈRE" pour freiner le coronavirus</a>
         </div>
+
         <div id="lang" style="font-size: small;display: inline-block;
                 line-height: 28px;">
           Google disponible en : <a style="padding: 0 3px;" href="https://www.google.com/">English</a>
@@ -352,44 +101,49 @@
     <div id="footer-top">
       <span id="footer-top">France</span>
     </div>
-    <div id="left">
-      <span id="footer-left">
-        <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
-        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
-        <a href="https://about.google/">&Agrave; propos</a>
-        <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
-      </span>
-    </div>
-    <div id="right">
-      <span id="footer-right">
-        <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
-        <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
-        <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
-        <a href="https://policies.google.com/terms?fg=1">Conditions</a>
-        <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
-      </span>
+    <div id="footer-bottom">
+      <div id="left">
+        <span id="footer-left">
+          <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
+          <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
+          <a href="https://about.google/">&Agrave; propos</a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
+        </span>
+      </div>
+      <div id="right">
+        <span id="footer-right">
+          <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
+          <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
+          <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+          <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+          <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
+        </span>
+      </div>
     </div>
   </div>
+  
   <div id="footer-main2">
     <div id="footer-top">
       <span id="footer-top">France</span>
     </div>
-    <div id="left">
-      <span id="footer-left">
-        <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
-        <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
-        <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
-        <a href="https://policies.google.com/terms?fg=1">Conditions</a>
-        <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
-      </span>
-    </div>
-    <div id="right">
-      <span id="footer-right">
-        <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
-        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
-        <a href="https://about.google/">&Agrave; propos</a>
-        <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
-      </span>
+    <div id="footer-bottom">
+      <div id="left">
+        <span id="footer-left">
+          <a href="https://support.google.com/websearch/answer/9586983">Publication judiciaire</a>
+          <a href="https://support.google.com/websearch/answer/7585859">Info consommateurs</a>
+          <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+          <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+          <a href="https://policies.google.com/preferences?hl=fr">Paramètres</a>
+        </span>
+      </div>
+      <div id="right">
+        <span id="footer-right">
+          <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
+          <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">Entreprise</a>
+          <a href="https://about.google/">&Agrave; propos</a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
+        </span>
+      </div>
     </div>
   </div>
 
