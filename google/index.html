@@ -9,6 +9,11 @@
   <script src="https://kit.fontawesome.com/d70a89f18c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="public/css/google.css">
   <script src="public/js/appgoogle.js"></script>
+  <script>
+    function cool2() {
+        document.getElementById('app').style.visibility = "hidden";
+        document.getElementById('app2').style.visibility = "hidden";
+    }</script>
 </head>
 
 <body>
@@ -27,14 +32,12 @@
         </div>
       </div>
 
-      <div id="app"
-        style="overflow: hidden; top: 0px; width: 340px; z-index: 991; position: absolute; height: 468px; margin-top: 56px;
-        max-height: calc(-56px + 100vh); right: 0px; margin-right: 27px; transition: height 0.3s ease-in-out 0s; visibility: hidden;">
-        <iframe id="app2" ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="yes" overflow="hidden"
-          tabindex="0" vspace="0" width="100%" role="presentation" id="I0_1585614304087" name="I0_1585614304087"
-          src="https://jplemonias.github.io/moi/"
-          style="height: 100%; visibility: hidden;">
+      <div id="app">
+        <iframe id="app2" src="https://jplemonias.github.io/moi/" style="height: 100%; border-radius: 10px; visibility: hidden;"
+        ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="yes"
+          tabindex="0" vspace="0" width="100%" role="presentation" id="I0_1585614304087" name="I0_1585614304087">
         </iframe>
+        <a href="#" id="close" onclick="cool2()"><i class="far fa-times-circle"></i></a>
       </div>
 
       <center>
@@ -148,3 +151,5 @@
 </body>
 
 </html>
+<!--Psycho@ctiF-->
+<!------Pe@cE---->

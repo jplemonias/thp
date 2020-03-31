@@ -100,6 +100,31 @@ input {
   opacity: 1 !important;
 }
 
+/* Div sur moi */
+#app {
+  top: 0px;
+  width: 340px;
+  z-index: 10;
+  position: absolute;
+  height: 468px;
+  margin-top: 56px;
+  max-height: calc(-56px + 100vh);
+  border-radius: 10px;
+  box-shadow:
+  -3px 3px 10px 0 rgba(214, 214, 214, 0.67), 
+  3px -3px 10px 0 rgba(214, 214, 214, 0.67), 
+  -3px -3px 10px 0 rgba(214, 214, 214, 0.67), 
+  3px 3px 10px 0 rgba(214, 214, 214, 0.67),
+  -5px 5px 15px 0 rgba(32, 33, 36, 0.41), 
+  5px -5px 15px 0 rgba(32, 33, 36, 0.41), 
+  -5px -5px 15px 0 rgba(32, 33, 36, 0.41), 
+  5px 5px 15px 0 rgba(32, 33, 36, 0.41) ;
+  right: 0px;
+  margin-right: 27px;
+  transition: height 0.3s ease-in-out 0s;
+  visibility: hidden;
+}
+
 /*Logo Google*/
 #logo {
   height: 233px;
@@ -107,6 +132,7 @@ input {
 }
 
 #br {
+  z-index: 5;
   width: 550px;
   padding: 0 17px 0 14px;
   border: solid 1px #dfe1e5;
@@ -165,6 +191,7 @@ input {
 
 #footer-main,
 #footer-main2 {
+  z-index: 4;
   width: 100%;
   min-width: 980px;
   border-top: 1px solid #e4e4e4;
@@ -251,3 +278,36 @@ input {
    display: none;
   }
 }
+
+#close {
+  display: block;
+  width: max-content;
+  margin: auto;
+  padding: 9px 18px;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 0 0 20px 20px;
+  border-color: #04c4b483;
+  box-shadow: 2px 2px 5px #04c4b438,
+     -2px 2px 5px #04c4b438,
+     2px -2px 5px #04c4b438,
+     -2px -2px 5px #04c4b438,
+     inset 2px 2px 5px #04c4b438,
+     inset -2px 2px 5px #04c4b438,
+     inset 2px -2px 5px #04c4b438,
+     inset -2px -2px 5px #04c4b438;
+  background: -webkit-gradient(linear,left top,right top,
+     from(#04c4b4),to(#d400ff));
+  background: linear-gradient(90deg,#04c4b4,#d400ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-text-decoration-color: #04c4b4!important;
+  text-decoration-color: #04c4b4!important;
+}
+/*****************
+*   Psycho@ctiF  *
+*       Pe@cE    *
+*****************/
