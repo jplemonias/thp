@@ -68,6 +68,7 @@ input {
 /*Boutons top*/
 #btn {
   width: max-content;
+  margin-right: 15px;
   margin-left: auto;
   display: flex;
   padding-top: 16px;
