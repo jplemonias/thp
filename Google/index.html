@@ -22,6 +22,15 @@
 
     a {
       cursor: pointer;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #609;
+    }
+
+    a:hover {
+      color: #1a0dab;
+      text-decoration: underline;
     }
 
     /*Modifs Isa 
@@ -36,13 +45,12 @@
     }
 
     #btn a {
-      text-decoration: none;
+      color: rgba(0,0,0,0.87);
       white-space: nowrap;
     }
 
     #btn a:hover {
       opacity: 0.85;
-      text-decoration: underline;
     }
 
     /*Modifs Maël
@@ -50,7 +58,7 @@
     #connexion {
       background-color: #4285f4;
       font-weight: bold;
-      color: whitesmoke;
+      color: whitesmoke!important;
       padding: 8px 13px 7px;
       border-radius: 2px;
     }
@@ -119,22 +127,20 @@
       display: block;
       float: left;
       border: none;
-      vertical-align: middle;
     }
 
     #mic {
-      margin: 9px 0;
+    margin: 10px 5px 9px 0;
       font-size: 19px;
       display: block;
       float: right;
       border: none;
-      vertical-align: middle;
     }
 
     #br {
       width: max-content;
       border-radius: 24px;
-      border: solid 1px lightgray;
+      border: solid 1px #dfe1e5;
       padding: 0 5px
     }
 
@@ -156,14 +162,9 @@
       text-decoration: none !important;
     }
 
-    #footer-main a:hover {
-      text-decoration: underline;
-    }
-
     #footer-main a {
       display: inline-block;
       color: #5f6368;
-      text-decoration: none;
     }
 
     #footer-top {
@@ -215,6 +216,12 @@
       opacity: .85;
     }
 
+    .fas.fa-microphone {
+    background: linear-gradient(180deg, #4285f4,#4285f4,#4285f4,#fbbc05,#ea4335, #ea4335);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
     #covid {
       font-size: small;
       margin-bottom: 32px;
@@ -256,7 +263,7 @@
             <form>
               <div id="br" style="width: 550px; padding: 0 16px 0 16px">
                 <div style="clear: both;"></div>
-                <div id="loupe"><i class="fas fa-search"></i></div>
+                <div id="loupe"><i style="color: #9AA0A6;" class="fas fa-search"></i></div>
                 <div id="inp">
                   <input></input>
                 </div>
@@ -294,7 +301,7 @@
       <span id="footer-left">
         <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2">Publicité</a>
         <a href="https://support.google.com/websearch/answer/7585859">Entreprise</a>
-        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">A propos</a>
+        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2">&Agrave; propos</a>
         <a href="https://www.google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
       </span>
       <span id="footer-right">
