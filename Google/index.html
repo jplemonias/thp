@@ -24,6 +24,7 @@
       cursor: pointer;
       text-decoration: none;
     }
+
     a:visited {
       color: #609;
     }
@@ -45,7 +46,7 @@
     }
 
     #btn a {
-      color: rgba(0,0,0,0.87);
+      color: rgba(0, 0, 0, 0.87);
       white-space: nowrap;
     }
 
@@ -58,7 +59,7 @@
     #connexion {
       background-color: #4285f4;
       font-weight: bold;
-      color: whitesmoke!important;
+      color: whitesmoke !important;
       padding: 8px 13px 7px;
       border-radius: 2px;
     }
@@ -130,7 +131,7 @@
     }
 
     #mic {
-    margin: 10px 5px 9px 0;
+      margin: 10px 5px 9px 0;
       font-size: 19px;
       display: block;
       float: right;
@@ -217,9 +218,9 @@
     }
 
     .fas.fa-microphone {
-    background: linear-gradient(180deg, #4285f4,#4285f4,#4285f4,#fbbc05,#ea4335, #ea4335);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+      background: linear-gradient(180deg, #4285f4, #4285f4, #4285f4, #fbbc05, #ea4335, #ea4335);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     #covid {
@@ -238,6 +239,12 @@
       display: block;
     }
   </style>
+  <script>
+    function cool() {
+      document.getElementById('app').style.visibility = "visible";
+      document.getElementById('app2').style.visibility = "visible";
+    }
+  </script>
 </head>
 
 <body>
@@ -247,13 +254,19 @@
       <div id="btn">
         <div style="padding-right: 15px;">
           <div style="padding-left: 15px;padding-top: 7px;"><a id="connexion">Connexion</a></div>
-          <div><a class="neuf"></a></div>
+          <div><a onclick="cool()" class="neuf"></a></div>
         </div>
         <div style="padding-right: 15px;">
           <div style="padding-left: 15px;padding-top: 7px;"><a>Images</a></div>
           <div style="padding-top: 7px;"><a>Gmail</a></div>
         </div>
       </div>
+      <div id="app"
+        style="overflow: hidden; top: 0px; width: 340px; z-index: 991; position: absolute; height: 468px; margin-top: 56px; max-height: calc(-56px + 100vh); right: 0px; margin-right: 27px; transition: height 0.3s ease-in-out 0s; visibility: hidden;">
+        <iframe id="app2" ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no"
+          tabindex="0" vspace="0" width="100%" role="presentation" id="I0_1585614304087" name="I0_1585614304087"
+          src="https://ogs.google.fr/u/0/widget/app?origin=https%3A%2F%2Fwww.google.fr&pid=1&spid=1&hl=fr&gm=&usegapi=1#id=I0_1585614304087&_gfid=I0_1585614304087&parent=https%3A%2F%2Fwww.google.fr&pfname=&rpctoken=40980021&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.OfYsKuVZ3qI.O%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAHpOoo8UDq_6isr1vipw5cUlPTPPdx3_0A%2Fm%3D__features__"
+          style="height: 100%; visibility: hidden;"></iframe></div>
       <center>
         <div id="logo">
           <img src="google.png" alt="Logo Google" style="padding: 109px 0 0;">
