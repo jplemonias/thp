@@ -1,0 +1,50 @@
+#logo-doodle-notifier {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    left: calc(50% + 148px);
+    padding: 0;
+    position: absolute;
+    top: 100px;
+    width: 24px;
+}
+.use-notifier #logo-doodle-notifier .ball0 {
+    animation-delay: 2640ms;
+    transform: rotate(45deg);
+}
+.use-notifier #logo-doodle-notifier .outer {
+    animation: anim-z-order 3520ms linear infinite;
+    height: 37.5%;
+    left: 50%;
+    margin-inline-start: -18.75%;
+    margin-top: -18.75%;
+    position: absolute;
+    top: 50%;
+    width: 37.5%;
+}
+.outer {
+    display: block;
+    height: 42px;
+    pointer-events: none;
+    position: absolute;
+}
+
+.use-notifier #logo-doodle-notifier .ball0 .inner {
+    background: linear-gradient( 315deg, rgb(0, 85, 221), rgb(0, 119, 255), rgb(0, 119, 255));
+}
+
+.use-notifier #logo-doodle-notifier .inner {
+    animation: anim-pos 880ms cubic-bezier(.445, .05, .55, .95) infinite alternate;
+    border-radius: 50%;
+    height: 100%;
+    position: absolute;
+    transform: rotate(90deg);
+    width: 100%;
+}
+
+.use-notifier #logo-doodle-notifier .ball1 {
+    animation-delay: 1760ms;
+    transform: rotate(135deg);
+}
