@@ -25,29 +25,41 @@
         .jumbotron {
             background-image: url("rm.png");
             height: 500px;
-            background-position: center;
+            background-position: bottom;
             background-size: cover;
         }
 
-        {flex: 1 0 31%;}
+            {
+            flex: 1 0 31%;
+        }
 
         .bgrm {
             background-image: url("rm.png");
+            background-position: bottom;
         }
+
+        .h300 {
+            height: 300px;
+        }
+
+        .w100p {
+            width: 100%;
+        }
+
         .bgchauss {
             background-image: url("chauss.png");
+            background-position: center;
         }
-        
     </style>
     <script>
         function orig() {
-            document.getElementById('bg1').classList.remove("bgrm");
-            document.getElementById('bg1').classList.add("bgchauss");
-        }
-        
-        function sec() {
             document.getElementById('bg1').classList.remove("bgchauss");
             document.getElementById('bg1').classList.add("bgrm");
+        }
+
+        function sec() {
+            document.getElementById('bg1').classList.remove("bgrm");
+            document.getElementById('bg1').classList.add("bgchauss");
         }
     </script>
 </head>
@@ -67,9 +79,9 @@
                         Nos prochaines sessions
                     </a>
                     <div style="margin: 0 121px;" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Janvier</a>
-                        <a class="dropdown-item" href="#">Avril</a>
-                        <a class="dropdown-item" href="#">Juin</a>
+                        <a class="dropdown-item" href="#img">Les images</a>
+                        <a class="dropdown-item" href="#pos">Les positions</a>
+                        <a class="dropdown-item" href="#ele">&lt;img&gt;</a>
                     </div>
                 </li>
             </ul>
@@ -91,159 +103,188 @@
             </div>
 
             <div class="text-center">
-                <h1 class="pb-4">The Surfing Project en 3 points</h1>
+                <h1 class="pb-4">Mais c'est bien sûr</h1>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4 text-center">
-                            <h1><i class="fas fa-money-bill-wave-alt fa-2x" aria-hidden="true"></i></h1>
+                            <h1><i class="far fa-flushed fa-2x"></i></h1>
 
                             <div class="text-center">
                                 <h2>
-                                    <p> Pas chère </p>
+                                    <p>Pourquoi ?</p>
                                 </h2>
                             </div>
-                            <p class="text-justify">Incenderat autem audaces usque ad insaniam homines ad haec, quae
-                                nefariis egere
-                                conatibus, Luscus quidam curator urbis subito visus: eosque ut heiulans baiolorum
-                                praecentor ad expediendum quod orsi sunt incitans vocibus crebris. qui haut longe postea
-                                ideo vivus exustus est.</p>
+                            <p class="text-justify">Car mon constat est, qu'il s'agit d'une question récurrente des
+                                moussaillons.
+                            </p>
                         </div>
                         <div class="col-sm-4 text-center">
-                            <h1><i class="fas 2x fa-couch fa-2x" aria-hidden="true"></i></h1>
+                            <h1><i class="fas fa-map-marker-alt fa-2x"></i></h1>
                             <h2>
-                                <p>Relax</p>
+                                <p>Où</p>
                             </h2>
-                            <p class="text-justify">Ideo urbs venerabilis post superbas efferatarum gentium cervices
-                                oppressas latasque leges
-                                fundamenta libertatis et retinacula sempiterna velut frugi parens et prudens et dives
-                                Caesaribus tamquam liberis suis regenda patrimonii iura permisit.</p>
+                            <p class="text-justify">Trouver ce <em>background.</em> ?<br>Il ce cache dans le css. Il
+                                vous
+                                suffit de créer une class par exemple class="image" et de lui référencer l'url
+                                de l'image à afficher en fond.<br><br>Comme ceci:<br><b>.image{}</b><br><br>Il ne vous
+                                reste plus qu'à dire quoi et où chercher, en insèrent dans les accolades:<br>
+                                <b>background-image: url()</b><br><br>le <b>où</b> reste à définir entre les parenthésés
+                            </p>
                         </div>
                         <div class="col-sm-4 text-center">
-                            <h1><i class="fas 3px fa-users fa-2x" aria-hidden="true"></i></h1>
+                            <h1><i class="fas fa-arrows-alt fa-2x"></i></h1>
                             <h2>
-                                <p>Communauté</p>
+                                <p>Position</p>
                             </h2>
-                            <p class="text-justify">Et olim licet otiosae sint tribus pacataeque centuriae et nulla
-                                suffragiorum certamina
-                                set Pompiliani redierit securitas temporis, per omnes tamen quotquot sunt partes
-                                terrarum, ut domina suscipitur et regina et ubique patrum reverenda cum auctoritate
-                                canities populique Romani nomen circumspectum et verecundum.</p>
+                            <p class="text-justify">Il est possible maintenant de positionner de diverses manières ce
+                                <em>background.</em><br><br>Je vais essayer de vous démontrer quelques exemples... les
+                                annotations
+                                dans cartes sont les valeurs donnant les rendu la class contient deja :<br><br>
+                                <b>background-image: url( SonUrl.png );<br>
+                                    height: 300px</b></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container">
-                <h1 class="text-center pb-4">Témoignages</h1>
+                <h1 class="text-center pb-4">Les images</h1>
                 <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="public/img/7033bb57d8a652fde30ac6ea75115d7f.jpg" alt="van">
+                    <div class="card mb-4">
+                        <div class="bgrm h300"
+                            style="background-size: contain; background-position: center; background-repeat: no-repeat">
+                        </div>
                         <div class="card-body position-relative">
-                            <p class="card-text mb-5">Cette carte a le texte de support ci-dessous comme une
-                                introduction naturelle
-                                à du contenu supplémentaire.</p>
+                            <p class="card-text mb-5">BG H.<br><br>background-size: contain;<br>background-position:
+                                center;<br>background-repeat: no-repeat</p>
                             <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
-                                    class="text-muted">30 / 03 / 2020</small></p>
+                                    class="text-muted">BG H.</small></p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="public/img/femmesurfvague.png" alt="Surfers">
+                    <div class="card mb-4">
+                        <div class="bgchauss h300"
+                            style="background-size: contain; background-position: center; background-repeat: no-repeat;">
+                        </div>
                         <div class="card-body position-relative">
-                            <p class="card-text mb-5">Il s'agit d'une carte plus longue avec le texte de support
-                                ci-dessous
-                                comme une entrée naturelle vers du contenu supplémentaire. Ce contenu est un peu plus
-                                long.</p>
+                            <p class="card-text mb-5">BG V.<br><br>background-size: contain;<br>background-position:
+                                center;<br>background-repeat: no-repeat</p>
                             <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
-                                    class="text-muted">19 / 04 / 2020</small></p>
+                                    class="text-muted">BG H.</small></p>
                         </div>
                     </div>
-                    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                        <h1 class="pb-4">Prix</h1>
-                        <p class="lead">Créez rapidement un tableau de prix efficace pour vos clients potentiels avec
-                            cet exemple Bootstrap. Il est construit avec des composants et des utilitaires Bootstrap par
-                            défaut avec peu de personnalisation.</p>
+                </div>
+                <h1 class="text-center pb-4">Les positions</h1>
+                <div class="card-deck">
+                    <div class="card mb-4">
+                        <div class="bgrm h300" style="background-size: cover;"></div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: cover</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
                     </div>
-
-                    <div class="container">
-                        <div class="card-deck mb-3 text-center">
-                            <div class="card mb-4 shadow-sm" style="flex: 1 0 47%;">
-                                <div class="card-header">
-                                    <h4 class="my-0 font-weight-normal">Semaine d'introduction</h4>
-                                </div>
-                                <div class="card-body">
-                                    <h1 class="card-title pricing-card-title">10€ <small class="text-muted">/
-                                            sem</small>
-                                    </h1><span class="text-small text-muted">
-                                        Paiement en une fois
-                                    </span>
-                                    <ul class="list-unstyled mt-3 mb-4">
-                                        <li>Pédagogie révolutionnaire</li>
-                                        <li>Pas de locaux, pas de professeurs</li>
-                                        <li>1 semaine d'intro</li>
-                                        <li><del class="text-muted text-strikethrough">11 semaines fullstack</del></li>
-                                        <li><del class="text-muted text-strikethrough">12 semaines React</del></li>
-                                        <li><del class="text-muted text-strikethrough">Accès à la communauté à vie</del>
-                                        </li>
-                                    </ul>
-                                    <button type="button"
-                                        class="btn btn-lg btn-outline-primary">S'inscrire</button>
-                                </div>
-                            </div>
-                            <div class="card mb-4 shadow-sm position-relative" style="flex: 1 0 47%;">
-                                <span class="ml-3 badge badge-secondary position-absolute" style="top: -.75rem;">
-                                    Le + populaire
-                                </span>
-                                <div class="card-header">
-                                    <h4 class="my-0 font-weight-normal">Full StacK Web</h4>
-                                </div>
-                                <div class="card-body">
-                                    <h1 class="card-title pricing-card-title">163€ <small class="text-muted">/
-                                            mo</small>
-                                    </h1><span class="text-small text-muted">
-                                        Paiement en trois fois
-                                    </span>
-                                    <ul class="list-unstyled mt-3 mb-4">
-                                        <li>Pédagogie révolutionnaire</li>
-                                        <li>Pas de locaux, pas de professeurs</li>
-                                        <li>1 semaine d'intro</li>
-                                        <li>11 semaines fullstack</li>
-                                        <li><del class="text-muted text-strikethrough">12 semaines React</del></li>
-                                        <li>Accès à la communauté à vie</li>
-                                    </ul>
-                                    <a type="button" href="https://www.thehackingproject.org/courses/code?locale=fr" target="_blank" target="_blank" class="btn btn-lg btn-primary">S'inscrire</a>
-                                </div>
-                            </div>
-                            <div class="card mb-4 shadow-sm m-auto" style="flex: 0 0 47%;">
-                                <div class="card-header">
-                                    <h4 class="my-0 font-weight-normal">Développeur</h4>
-                                </div>
-                                <div class="card-body">
-                                    <h1 class="card-title pricing-card-title">664€ <small class="text-muted">/
-                                            mo</small>
-                                    </h1><span class="text-small text-muted">
-                                        Paiement en trois fois
-                                    </span>
-                                    <ul class="list-unstyled mt-3 mb-4">
-                                        <li>Pédagogie révolutionnaire</li>
-                                        <li>Pas de locaux, pas de professeurs</li>
-                                        <li>1 semaine d'intro</li>
-                                        <li>11 semaines fullstack</li>
-                                        <li>12 semaines React</li>
-                                        <li>Accès à la communauté à vie</li>
-                                    </ul>
-                                    <button type="button" class="btn btn-lg btn-primary">S'inscrire</button>
-                                </div>
+                    <div class="card mb-4">
+                        <div class="bgrm h300" style="background-size: cover; background-position: center;"></div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: cover;<br>background-position: center</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="bgrm h300" style="background-size: cover; background-position: right;"></div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: cover;<br>background-position: right;</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="bgrm h300"
+                            style="background-size: contain; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: cover;<br>background-position:
+                                center;<br>background-repeat: no-repeat</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck">
+                    <div class="card mb-4">
+                        <div class="bgchauss h300" style="background-size: cover; background-position: top;"></div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: cover;<br>background-position: top</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="bgchauss h300"
+                            style="background-size: contain; background-position: left; background-repeat: no-repeat;">
+                        </div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: contain;<br>background-position:
+                                left;<br>background-repeat: no-repeat</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="bgchauss h300"
+                            style="background-size: contain; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: contain;<br>background-position:
+                                center;<br>background-repeat: no-repeat</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="bgchauss h300"
+                            style="background-size: contain; background-position: right; background-repeat: no-repeat;">
+                        </div>
+                        <div class="card-body position-relative">
+                            <p class="card-text mb-5">background-size: contain;<br>background-position:
+                                right;<br>background-repeat: no-repeat</p>
+                            <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                    class="text-muted">BG H.</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="ele" class="container">
+                    <h1 class="text-center pb-4">&lt;img&gt;</h1>
+                    <div class="card-deck">
+                        <div class="card mb-4">
+                            <img class="card-img-top h300" src="rm.png" alt="van">
+                            <div class="card-body position-relative">
+                                <p class="card-text mb-5">
+                                    &lt;img style="height: 300px" src="" alt=""&gt;</p>
+                                <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                        class="text-muted">30 / 03 / 2020</small></p>
                             </div>
                         </div>
-
-
+                        <div class="card mb-4">
+                            <img class="w100p" src="chauss.png" alt="dessin de chaussures">
+                            <div class="card-body position-relative">
+                                <p class="card-text mb-5">
+                                    &lt;img style="width: 100%" src="" alt=""&gt;
+                                    </p>
+                                <p class="card-text position-absolute mb-4" style="bottom: 0px;"><small
+                                        class="text-muted">19 / 04 / 2020</small></p>
+                            </div>
+                        </div>
                     </div>
+
 
                 </div>
+
             </div>
 
 </body>
 <footer>
-    <img class="mb-2 ml-2" src="public/img/bootstrap-solid.svg" alt="" width="24" height="24"> <sup
+    <img class="mb-2 ml-2" src="bootstrap-solid.svg" alt="" width="24" height="24"> <sup
         style="top: -15px;">&copy;</sup> Bootstrap<sup>&copy;</sup>, The Surfing Progect, et Moi.</img>
 </footer>
 
