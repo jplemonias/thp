@@ -1,7 +1,8 @@
 ----------------------
 # the Hacking Proget #
 ----------------------
-# Semaine I
+
+# Semaine I - Introduction
 
 ### J-I : Ta première page web
 
@@ -25,71 +26,119 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 * [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
 
-### J-III
+### J-III : Git, GitHub, le terminal, les réseaux : mettre son projet en ligne
+
 ???
+
 ```
 ???
 ```
-### J-IV
+
+### J-IV : Bootstrap, ou comment rendre ton site joli et mobile
+
 ???
+
 ```
 ???
 ```
-### J-V
+
+### J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
+
 ???
+
 ```
 ???
 ```
-# Semaine II
-### J-IIX
+----------------------
+
+# Semaine II - Fullstack web
+
+### J-IIX : Introductions et début
+
 ???
+
 ```
 ???
 ```
-### J-IX
+
+### J-IX : Itsa me, Mario !
+
 ???
+
 ```
 ???
 ```
-### J-X
+
+### J-X : Ruby basics (1/2)
+
 ???
+
 ```
 ???
 ```
-### J-XI
+
+### J-XI : Ruby basics (2/2)
+
 ???
+
 ```
 ???
 ```
-### J-XII
+
+### J-XII : Journée kata
+
 ???
+
 ```
 ???
 ```
-# Semaine II
+----------------------
+
+# Semaine III
 ### J-XIII
+
 ???
+
 ```
 ???
 ```
+
 ### J-IV
+
 ???
+
 ```
 ???
 ```
+
 ### J-V
+
 ???
+
 ```
 ???
 ```
+
 ### J-VI
+
 ???
+
 ```
 ???
 ```
+
 ### J-VII
+
 ???
+
 ```
 ???
 ```
+----------------------
+
+Date semaine-I J-I:
+30 / 03 / 2020
+
+Remerciments:
+
 * [TheHackinPproject](https://www.thehackingproject.org/) :shipit:
