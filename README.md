@@ -19,7 +19,8 @@ Mais aussi comment le web marche, et les bases de comment coder.
 C'est l'heure de ton premier véritable projet ! 
 
 ```
-Nous avons dû recréer la très célèbre page d'accueil de Google.Pour aider, les outils tels que d'inspection d'éléments nous à été présenté.
+Nous avons dû recréer la très célèbre page d'accueil de Google.Pour aider,
+les outils tels que d'inspection d'éléments nous à été présenté.
 ```
 
 * [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
