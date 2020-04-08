@@ -1,5 +1,5 @@
 ----------------------
-# the Hacking Proget :shipit:
+# the Hacking Proget #
 ----------------------
 # Semaine I
 
@@ -57,29 +57,29 @@ Mais aussi comment le web marche, et les bases de comment coder.
 ???
 ```
 # Semaine II
-### J-I
+### J-XIII
 ???
 ```
 ???
 ```
-### J-I
+### J-IV
 ???
 ```
 ???
 ```
-### J-I
+### J-V
 ???
 ```
 ???
 ```
-### J-I
+### J-VI
 ???
 ```
 ???
 ```
-### J-I
+### J-VII
 ???
 ```
 ???
 ```
-* [TheHackinPproject](https://www.thehackingproject.org/)
+* [TheHackinPproject](https://www.thehackingproject.org/) :shipit:
