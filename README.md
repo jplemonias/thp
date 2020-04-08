@@ -1,6 +1,6 @@
-----------------------
-# the Hacking Proget #
-----------------------
+-----------------------
+# The Hackin Pproject #
+-----------------------
 
 ## Semaine I - Introduction
 
