@@ -1,5 +1,5 @@
 ----------------------
-  the Hacking Proget 
+# the Hacking Proget #
 ----------------------
 # Semaine I
 
@@ -66,7 +66,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 ```
 ???
 ```
-##Semaine II
+## Semaine II
 ### J-XIII
 ???
 ```
