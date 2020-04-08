@@ -13,11 +13,17 @@ Mais aussi comment le web marche, et les bases de comment coder.
 * [MotherF*******Website](https://github.com/4o4)
 * [BetterMotherF*******Website](https://github.com/4o4)
 * [BestMotherF*******Website](https://github.com/4o4)
-### J-II
-???
+
+### J-II : Refaire Google : à toi les milliards
+
+C'est l'heure de ton premier véritable projet ! 
+
 ```
-???
+Nous avons dû recréer la très célèbre page d'accueil de Google.Pour aider, les outils tels que d'inspection d'éléments nous à été présenté.
 ```
+
+* [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
+
 ### J-III
 ???
 ```
