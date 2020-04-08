@@ -1,7 +1,7 @@
 puts "donne moi un chifre de 1 à 25 s'il te plait"
 print "> "
 a = gets.chomp.to_i
-if a < 1 || a > 25
+while a < 1 || a > 25
     puts "on à dit ENTRE 1 et 25 s'il te plait ;)"
     print "> "
     a = gets.chomp.to_i
@@ -16,7 +16,7 @@ end
 puts "Faisons la même cose à droite"
 print "choisis encore > "
 a = gets.chomp.to_i
-if a < 1 || a > 25
+while a < 1 || a > 25
     puts "Serieux??? :P"
     print "> "
     a = gets.chomp.to_i
@@ -31,7 +31,7 @@ end
 puts "tu veux une vrie pyramide ?"
 print "de 1 à 25 toujours > "
 a = gets.chomp.to_i
-if a < 1 || a > 25
+while a < 1 || a > 25
     puts "NOON là tu abuses :D"
     print "> "
     a = gets.chomp.to_i
@@ -46,7 +46,7 @@ end
 puts "tu veux un losange ?"
 print "Si tu veux voir > "
 a = gets.chomp.to_i
-if a < 1 || a > 25
+while a < 1 || a > 25
     puts ".................................°"
     print "> "
     a = gets.chomp.to_i
@@ -60,7 +60,7 @@ a.times do
   puts "#{k}".rjust(a)+"#{k}"
   k += l
 end
-while e >= 1
+a.times do
   puts "#{m}"+"#{l* o}" 
   m += " "
   o -= 2
