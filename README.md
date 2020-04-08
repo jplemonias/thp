@@ -10,9 +10,9 @@ C'est le premier jour ! Youpiiiiiii
 Après quelques introductions à THP, nous avons vu comment réaliser sa première page web.
 Mais aussi comment le web marche, et les bases de comment coder.
 ```
-* [MotherF*******Website](https://github.com/4o4)
-* [BetterMotherF*******Website](https://github.com/4o4)
-* [BestMotherF*******Website](https://github.com/4o4)
+* [MotherF*******Website](https://github.com/nof4o4)
+* [BetterMotherF*******Website](https://github.com/nof4o4)
+* [BestMotherF*******Website](https://github.com/nof4o4)
 
 ### J-II : Refaire Google : à toi les milliards
 
