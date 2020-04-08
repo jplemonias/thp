@@ -3,7 +3,7 @@ def ask_pyr
     puts " hey,"
     puts " bienvenue dans ma super pyramide !"
     puts " "
-    puts print " Combien d'étages veux-tu ?"
+    puts " Combien d'étages veux-tu ? "
     puts " Entre 1 et 25 s'il te plat!"
     a = gets.chomp.to_i
     while a < 1 || a > 25
@@ -44,12 +44,14 @@ def ask_los
       m += " "
       o -= 2
     end
+    puts " "
+    puts " Pe@cE"
 end
   
 def perform
   pyr = ask_pyr
   los = ask_los
-  greet(pyr, los)
 end
 
 perform
+require_relative '02_pass'

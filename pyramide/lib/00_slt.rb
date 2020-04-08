@@ -1,27 +1,29 @@
-
-def ask_first_name
-    puts "Salut. Quel est ton prénom ?"
+def ask_pnom
+  puts " "
+    puts " Salut. Quel est ton prénom ?"
     print "> "
-    first_name = gets.chomp
-    puts "Bienvenue, #{first_name} !"
-    return first_name
+    pnom = gets.chomp
+  end
+  def ask_nom
+    puts " "
+    puts " Quel est ton nom de famille ?"
+    print "> "
+    nom = gets.chomp
   end
   
-  def ask_last_name
-    puts "Quel est ton nom de famille ?"
-    print "> "
-    last_name = gets.chomp
-    return last_name
-  end
-  
-  def greet(first_name, last_name)
-    puts "Enechanté, #{first_name} #{last_name} !"
+  def greet(pnom, nom)
+    puts " "
+    puts " Enechanté, #{pnom} #{nom};"
+    puts " moi c'est Jean-Paul L*******!"
+#    puts " appuis sur ENTRER pour continuer"
+#    print "> "
   end
   
   def perform
-    first_name = ask_first_name
-    last_name = ask_last_name
-    greet(first_name, last_name)
+    pnom = ask_pnom
+    nom = ask_nom
+    greet(pnom, nom)
   end
   
   perform
+  require_relative '02_pass'
