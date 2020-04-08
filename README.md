@@ -136,7 +136,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 ```
 ----------------------
 
-Date semaine-I J-I:<br>
+Date semaine une jour un:<br>
 30 / 03 / 2020
 
 Remerciments:
