@@ -1,7 +1,7 @@
 ----------------------
-# the Hacking Proget #
+  the Hacking Proget 
 ----------------------
-# Semaine I
+Semaine I
 
 ### J-I : Ta première page web
 
@@ -40,7 +40,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 ```
 ???
 ```
-# Semaine II
+Semaine II
 ### J-IIX
 ???
 ```
@@ -66,7 +66,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 ```
 ???
 ```
-# Semaine II
+Semaine II
 ### J-XIII
 ???
 ```
