@@ -28,10 +28,13 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 ###### J-III : Git, GitHub, le terminal, les réseaux : mettre son projet en ligne
 
-???
-
 ```
-???
+Après une première matinée de corrections entre pairs, soit à réaliséer deux correction et en subir deux aussi.
+```
+
+C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir...<br><br>Nop ???
+```
+Nos magnifiques réalisations nous te montrerons le célèbre terminal, ainsi que Git et GitHub. Enfin nous te demanderons de mettre en ligne ton projet de la veille.
 ```
 
 ###### J-IV : Bootstrap, ou comment rendre ton site joli et mobile
