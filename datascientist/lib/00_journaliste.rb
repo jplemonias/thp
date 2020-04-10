@@ -42,16 +42,12 @@ j=["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gaellomb
 "@ginades","@PierreTran","@DelphineCuny","@reesmarc","@lauratenoudji","@ldupin","@carolinedescham","@Lucile_Quillet","@cgabizon","@Allocab",
 "@epenser","@JAGventeprivee","@frwrds","@Laure__Bourdon","@Xavier75","@maximeverner","@s_jourdain","@LoriHelloc"]
 
-y = Oui
-n = non
+
 puts " Quel est ton nom de famille ?"
 print "> "
-if 
 puts " "+"-" * 60
 puts "  Combien y a-t-il de journalistes dans ce tableu ? "
 puts "  Nono s'il te plait?"
-
-
 puts " "
 puts "  Bipbip"
 puts "> Il y a #{j.length} journaliste dans ce tableau"
