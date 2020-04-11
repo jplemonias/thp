@@ -1,5 +1,5 @@
 -----------------------
-# The Hackin Project #
+# The Hacking Project #
 -----------------------
 
 ## Semaine I - Introduction
