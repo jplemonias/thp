@@ -34,7 +34,8 @@ Après une première matinée de corrections entre pairs, soit à réaliséer de
 
 C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir...<br><br>Nop ???
 ```
-Nos magnifiques réalisations nous te montrerons le célèbre terminal, ainsi que Git et GitHub. Enfin nous te demanderons de mettre en ligne ton projet de la veille.
+Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
+La méthode présenté est celle par le terminal. ( wsl + <i class="fab fa-ubuntu"></i> )
 ```
 
 ###### J-IV : Bootstrap, ou comment rendre ton site joli et mobile
