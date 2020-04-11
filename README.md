@@ -30,7 +30,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 ###### J-III : Git, GitHub, le terminal, les réseaux : mettre son projet en ligne
 
 ```
-Après une première matinée de corrections entre pairs, soit à réaliséer deux correction et en subir deux aussi.
+Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
 ```
 
 C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir...<br><br>Nop ???
@@ -42,7 +42,7 @@ La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 * [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
 -----------------------
 
-###### J-IV : Bootstrap, ou comment rendre ton site joli et resposiv
+###### J-IV : Bootstrap, ou comment rendre ton site joli et responsiv
 
 Après avoir vu les bases de l'HTML et du CSS,
 
@@ -51,7 +51,7 @@ Nous avons vu Bootstrap, un puissant framework (ou une puissante boite à :cooki
 qui permet une mise en page tout en respectant les conventions du web moderne.
 ```
 
-Résultat baséé sur des "photos"( sans outils inspecter :trollface: )
+Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 
 * [TheSurfingProject](https://jplemonias.github.io/thp/bootstrap/)
 
@@ -166,6 +166,6 @@ Date semaine une jour un:<br>
 
 -----------------------
 
-Remerciments:
+Remerciements:
 
 * [TheHackinPproject](https://www.thehackingproject.org/) :shipit:
