@@ -67,8 +67,8 @@ nous devions coder un "Landing Page" ( page de présentation ) d'une idée révo
 Je poste ma page perso et mon C.V. en guise de réalisation... t'as capté l'idée ?
 ```
 
-* [Ma page perso](https://jplemonias.github.io/thp/bootstrap/help.html)
-* [Mon C.V.](https://jplemonias.github.io/thp/bootstrap/help.html)
+* [Ma page perso](https://jplemonias.github.io/thp/J5/index.html)
+* [Mon C.V.](https://jplemonias.github.io/thp/J5/cv.html)
 ----------------------
 
 
