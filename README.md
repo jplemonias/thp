@@ -27,7 +27,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 -----------------------
 
-### :suspect: J-III : Git, GitHub:octocat:, le terminal, les réseaux : mettre son projet en ligne
+### :suspect: J-III : Git, GitHub :octocat:, le terminal, les réseaux : mettre son projet en ligne
 
 ```
 Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
@@ -35,7 +35,7 @@ Après une première matinée de corrections entre pairs, soit à réaliser deux
 
 C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir :eyes:...<br><br>Nop ???
 ```
-Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub:octocat:.
+Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
 La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 ```
 
