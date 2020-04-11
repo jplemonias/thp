@@ -4,7 +4,7 @@
 
 ## Semaine I - Introduction
 
-###### J-I : Ta première page web
+###### :godmode: J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
 ```
@@ -33,7 +33,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
 ```
 
-C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir...<br><br>Nop ???
+C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir :eyes:...<br><br>Nop ???
 ```
 Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
 La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
