@@ -134,7 +134,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-V
+###### :goberserk: J-V
 
 ???
 
@@ -143,7 +143,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-VI
+###### :goberserk: J-VI
 
 ???
 
@@ -152,7 +152,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-VII
+###### :finnadie: J-VII
 
 ???
 
