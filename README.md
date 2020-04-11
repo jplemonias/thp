@@ -35,16 +35,19 @@ Après une première matinée de corrections entre pairs, soit à réaliséer de
 C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir...<br><br>Nop ???
 ```
 Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
-La méthode présenté est celle par le terminal. ( wsl + <i class="fab fa-ubuntu"></i> )
+La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 ```
 
-###### J-IV : Bootstrap, ou comment rendre ton site joli et mobile
+###### J-IV : Bootstrap, ou comment rendre ton site joli et resposiv
 
-???
+Après avoir vu les bases de l'HTML et du CSS,
 
 ```
-???
+Nous avons vu Bootstrap, un puissant framework (ou une puissante boite à :cookie: alza )
+qui permet une mise en page tout en respectant les conventions du web moderne.
 ```
+
+Résultat baséé sur des "photos"( sans outils inspecter :trollface: )
 
 ###### J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
 
