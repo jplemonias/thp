@@ -44,13 +44,15 @@ j=["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gaellomb
 "@epenser","@JAGventeprivee","@frwrds","@Laure__Bourdon","@Xavier75","@maximeverner","@s_jourdain","@LoriHelloc"]
 def lsit
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a14af366c6ca59a09440d63feea361a7f7ea3612
 puts " Quel est ton nom de famille ?"
 print "> "
 puts " "+"-" * 60
 puts "  Combien y a-t-il de journalistes dans ce tableu ? "
 puts "  Nono s'il te plait?"
-
-
 puts " "
 puts "  Bipbip"
 puts "> Il y a #{j.length} journaliste dans ce tableau"
@@ -101,4 +103,21 @@ puts print j.sort_by {|z|z.downcase}
 puts " "+"-" * 60
 puts " "
 puts " "+"-" * 60
+<<<<<<< HEAD
 puts "> Voici la liste par ordre alphabetique:"
+=======
+puts "> Voici la liste par ordre alphabetique:"
+=begin
+for i in 1..50
+    print j.sort.join('@Laurie_Z_')
+end
+
+print j.index("@ChloeAeberhardt")
+il y a 379 journalistes 
+17
+2
+209
+215
+72
+=end
+>>>>>>> a14af366c6ca59a09440d63feea361a7f7ea3612
