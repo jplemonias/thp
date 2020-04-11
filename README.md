@@ -39,7 +39,7 @@ Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
 La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 ```
 
-* [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
+* [Page Google réalisée](https://jplemonias.github.io/thp/google/)
 -----------------------
 
 ###### :suspect: J-IV : Bootstrap, ou comment rendre ton site joli et responsiv
