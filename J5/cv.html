@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<title>Curriculum Vitæ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="public/img/ptitspoid.png">
+<link rel="stylesheet" href="public/css/cv.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="application/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://kit.fontawesome.com/d70a89f18c.js" crossorigin="anonymous"></script>
+<style>
+  .fa-share {
+    color: black !important;
+    transform: rotate3d(1, 1, 0, 180deg) !important;
+  }
+</style>
+<script type="application/javascript">
+  (function () {
+    function calculPourcentageHauteur() {
+      var hauteurDocument = $(document).height(); // Hauteur du document complet
+      var hauteurFenetre = $(window).height(); // Hauteur de la fenêtre courante (viewport)
+      var position = $(window).scrollTop(); // Position haute au moment du scroll
+      var positionDernierEcran = hauteurDocument - hauteurFenetre; // Position haute du dernier écran visible
+      var ratioHauteur = position / positionDernierEcran; // Ratio de la hauteur
+      var pourcentageHauteur = Math.floor(ratioHauteur * 100); // Pourcentage de la hauteur
+
+      // Affichage de l'évolution du pourcentage de la hauteur dans la console (optionnel)
+      //console.log("Pourcentage de la hauteur parcourue : " + pourcentageHauteur + "%");
+
+      return pourcentageHauteur;
+    }
+
+    // Barre de défilement horizontale en fonction du scroll
+    function barreDefilement() {
+      var cible = $("#barre-1 .progression");
+      cible.css({
+        "width": calculPourcentageHauteur() + "%"
+      });
+      $("#barre-1 .pourcentage").html(calculPourcentageHauteur() + "%");
+    }
+
+    // Chargement des fonctions lors du chargement et du scroll
+    $(window).on("load scroll", function () {
+      barreDefilement();
+    });
+  })(jQuery);
+</script>
+
+<body class="w3-light-grey">
+
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4" style="height: 100%;border-radius: 30px 30px 5px 5px;">
+          <div class="w3-display-container">
+            <img src="public/img/avatar2.png" style="width:100%; border-radius: 30px 30px 0px 0px;" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-black">
+              <h2 style="font-size: 26px; margin:0 0 31px 0; text-shadow: 2px 2px 2px white;">Jean-Paul<br>LEMONIAS</h2>
+            </div>
+          </div>
+          <div class="w3-container" style="border-radius: 30px 30px 0px 0px; 
+          background: white;
+          padding: 20px;
+          margin-top: -31px;
+          position: relative;">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Electricien<br><span
+                style="margin-left: 39px;">Technicien fibre opt. D2/D3</span></p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Grenoble, FR</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>jeanpaullemonias@gmail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+33 6XXXXXX31</p>
+            <div id="separ2"></div>
+            <!--
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>-->
+          </div>
+        </div><br>
+
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16 w3-center"><span
+              class="w3-margin-right w3-xxlarge w3-text-teal">&#128188;</span>Experiences</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Technicien fibre / Fibrolec</b><span
+                style="color: lightslategray;">&nbsp;&nbsp;Paris (75) </span></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span>Aout 2015 - <span
+                class="w3-tag w3-teal w3-round">Maintenant</span></h6>
+            <p>&nbsp;&nbsp;Sous traitance pour Eiffage ENERGIE/CIRCET<br>&nbsp;&nbsp;FAI :
+              Free<br><br>&nbsp;&nbsp;D3<br>- Pose, raccordement et mise en service de PTO.<br>- Pose et mise en service
+              de materiel FAI.<br><span style="color: lightslategray;">&nbsp;&nbsp;Région Grenobloise, Isère (38)</span>
+            </p>
+            <div id="separ"></div>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Modérateur Discord / TapTap</b></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span>Mai 2o19 - Juilet 2o19 / <span
+                class="w3-tag w3-teal w3-round">Maintenant</span></h6>
+            <p>- Modération de la partie EN.<br>- Développement des premiers webhooks.<br><span
+                style="color: lightslategray;">&nbsp;&nbsp;Région Chine</span></p>
+            <div id="separ"></div>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Technicien fibre / ND telecom </b><span
+                style="color: lightslategray;">&nbsp;&nbsp;Panissage (38)</span></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span></i>2o16 - 2o17</h6>
+            <p>&nbsp;&nbsp;Sous traitance pour Eiffage ENERGIE/CIRCET<br>&nbsp;&nbsp;FAI : Orange et
+              Free<br><br>&nbsp;&nbsp;D3<br>- Pose, raccordement et mise en service
+              de PTO.<br>- Pose et mise en service de materiel FAI.<br>&nbsp;&nbsp;D2<br>- Lecture de plan, tirage de
+              câble<br>- Montage et pose PMZ.<br>- Soudures aux points
+              de raccordement et tiroir<br>- Prises de mesures réflectométriques<br>- Remise de
+              chantier.<br>&nbsp;&nbsp;Général: balisage et utilisation de PEMP en milieu urbain.<br><span
+                style="color: lightslategray;">&nbsp;&nbsp;Régions Savoie (73), Haute-Savoie (74), Rhône (69)</span>
+            </p>
+            <div id="separ"></div>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Électricien / EIFFAGE ENERGIE RHONE ALPES</b></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span></i>septembre 2015 - septembre 2016
+            </h6>
+            <p>&nbsp;&nbsp;Pose, raccordement et mise en service de compteur, disjoncteur, CIBE, RMBT et
+              caetera...<br><span style="color: lightslategray;">&nbsp;&nbsp;Régions Savoie (73), Haute-Savoie
+                (74)</span></p>
+            <div id="separ"></div>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Électricien / I.D.E.E.</b><span style="color: lightslategray;">&nbsp;&nbsp;Eybens
+                (38)</span></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span></i>2007 - 2015 (8 ans)</h6>
+            <p>- Secteur principal: Soutraitance pour CHUBB sécurité / SICLI.<br>&nbsp;&nbsp;Installation pose et
+              raccordement de matériel de prévention d’incendie.<br>&nbsp;&nbsp;Centrale incendie, détecteurs, système
+              d'extinction Autonome...<br>&nbsp;&nbsp;Lecture de plan, étude de cheminement, réalisation, mise en
+              service.<br>&nbsp;&nbsp;Travaux en hauteur, utilisation régulière de PEMP.<br>&nbsp;&nbsp;Travaux dans
+              locaux dit à risque.<br>&nbsp;&nbsp;Respect des consignes EHS.
+              <br>- Remise en conformité d’hôtel de station: Pour un promoteur de voyage touristique
+              Anglais.<br>&nbsp;&nbsp;Vérification de points remise aux normes demandé par le bureau de contrôle.
+              <br>- Réalisation d'ouvrages électriques généraux, d'ordre domestique et tertiaire. <br><span
+                style="color: lightslategray;">&nbsp;&nbsp;Régions Savoie (73), Haute-Savoie (74)</span></p>
+            <div id="separ"></div>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Emplois divers / Intérim </b></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span></i>2oo6 - 2oo7</h6>
+            <p>- manutention,<br>- surveillance de ligne en 3-8,<br>- ménages d’entreprises d’immeubles,<br>- ...
+              <br><span style="color: lightslategray;">&nbsp;&nbsp;France</span></p>
+            <div id="separ"></div>
+          </div>
+        </div>
+
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16 w3-center"><span
+              class="w3-margin-right w3-xxlarge w3-text-teal">&#129504;</span>Formation</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>autodidacte</b></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span>fin 2o19 - <span
+                class="w3-tag w3-teal w3-round">Maintenant</span></h6>
+            <p>acquérir de nouvelles connaissances en vue de devenir WebDev.<br>&nbsp;<i
+                class="fa fa-share w3-large w3-text-teal"></i>&nbsp;Utilisation de:<br><i
+                class="fa fa-code fa-fw w3-margin-right w3-large w3-text-teal"></i>visual studio<br><i
+                class="fab fa-github-alt fa-fw w3-margin-right w3-large w3-text-teal"></i>github<br><i
+                class="fa fa-clipboard fa-fw w3-margin-right w3-large w3-text-teal"></i>Wampserver<br><i
+                class="fa fa-server fa-fw w3-margin-right w3-large w3-text-teal"></i>MySQL<br><i
+                class="fa fa-language fa-fw w3-margin-right w3-large w3-text-teal"></i><i
+                class="fab fa-html5 w3-large"></i> <i class="fab fa-css3-alt w3-large"></i> <i
+                class="fab fa-js-square w3-large"></i> <i class="fab fa-php w3-large"></i></p>
+            <div id="separ"></div>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>GRETA nord Isère</b></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span>2oo7 - 2oo9</h6>
+            <p>CAP préparation et realisation d'ouvrages électriques</p>
+            <p><i style="color: rgb(50, 150, 50);" class="fa fa-trophy fa-fw w3-margin-right"></i> obtention</p>
+            <div id="separ"></div>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Lycée Professionnel Privé Marc Seguin</b><br><span
+                style="color: lightslategray;">Annonay (o7)</span></h5>
+            <h6 class="w3-text-teal"><span class=" w3-margin-right">&#128197;</span>2oo4 - 2oo6</h6>
+            <p>BEP électrotechnique</p>
+            <p><i style="color: rgb(85, 30, 30)" class="fa fa-trophy fa-fw w3-margin-right"></i>
+              <strike>obtention</strike><br><span style="color: lightslategray;">Arret avant fin
+                d'année</span></p>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2oo4</h6>
+            <p>Diplôme National Du Brevet </p>
+            <p><i style="color: rgb(50, 150, 50);" class="fa fa-trophy fa-fw w3-margin-right"></i> obtention</p>
+          </div>
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+  </div>
+
+  <footer style="border-radius: 0;" class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Médias sociaux</p>
+    <a href="https://codepen.io/PsychoActiF/" target="_blank"><i class="fab fa-codepen w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/psychoactif_38/" target="_blank"><i
+        class="fab fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/technicien-fibre-optique-09155718a" target="_blank"><i
+        class="fab fa-linkedin w3-hover-opacity"></i></a>
+    <p><i style="font-size: 22px; color: #04c4b4; float: left;" class="fas fa-peace"></i>En savor plus <a
+        class="JP-hover-text-darcktapgreen" href="index.html" target="_blank"
+        style="text-decoration: none;">Psycho@ctiF</a>
+      <i style="font-size: 22px; color: #008a7e; float: right;" class="fas fa-peace"></i></p>
+  </footer>
+
+</body>
+<div id="barre-1">
+  <div class="progression" style="width: 0%;"></div>
+</div>
+
+</html>
+<!--Psycho@ctiF-->
+<!------Pe@cE---->
