@@ -71,7 +71,7 @@ Je poste ma page perso et mon C.V. en guise de réalisation...
 * [Mon C.V.](https://jplemonias.github.io/thp/J5/cv.html)
 
 ```
-Cela m'a permis de pouvoir aider mes confraire voguant en heau trouble sur certains point de l'HTML et du CSS<br>
+Cela m'a permis de pouvoir aider mes confrère voguant en eau trouble sur certains point de l'HTML et du CSS
 où je me sentais plus à l'aise.
 ```
 ----------------------
