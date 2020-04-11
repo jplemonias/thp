@@ -1,3 +1,4 @@
+def lsitdef
 j=["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gaellombart","@bendarag","@AurelieLebelle","@julienduffe",
 "@thomaspoupeau","@LilyRossignol","@ClairGuedon","@stephanieauguy","@claw_prolongeau","@_JulieMenard","@LColcomb","@Zlauwereys",
 "@MeLonguet","@DorotheeLN","@NolwennCosson","@ADaboval","@Remibaldy","@bderveaux","@amandechap","@ELODIESOULIE","@nbongarcon",
@@ -41,12 +42,10 @@ j=["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gaellomb
 "@FabienneSchmitt","@alexgoude","@JeromeColombain","@manhack","@Capucine_Cousin","@Fsorel","@oliviertesquet","@marjoriepaillon",
 "@ginades","@PierreTran","@DelphineCuny","@reesmarc","@lauratenoudji","@ldupin","@carolinedescham","@Lucile_Quillet","@cgabizon","@Allocab",
 "@epenser","@JAGventeprivee","@frwrds","@Laure__Bourdon","@Xavier75","@maximeverner","@s_jourdain","@LoriHelloc"]
+def lsit
 
-y = Oui
-n = non
 puts " Quel est ton nom de famille ?"
 print "> "
-if 
 puts " "+"-" * 60
 puts "  Combien y a-t-il de journalistes dans ce tableu ? "
 puts "  Nono s'il te plait?"
@@ -103,16 +102,3 @@ puts " "+"-" * 60
 puts " "
 puts " "+"-" * 60
 puts "> Voici la liste par ordre alphabetique:"
-=begin
-for i in 1..50
-    print j.sort.join('@Laurie_Z_')
-end
-
-print j.index("@ChloeAeberhardt")
-il y a 379 journalistes 
-17
-2
-209
-215
-72
-=end
