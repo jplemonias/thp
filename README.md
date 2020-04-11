@@ -25,7 +25,6 @@ Nous avons dû recréer la très célèbre page d'accueil de Google.Pour aider,
 les outils tels que d'inspection d'éléments nous à été présenté.
 ```
 
-* [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
 -----------------------
 
 ###### J-III : Git, GitHub, le terminal, les réseaux : mettre son projet en ligne
@@ -39,6 +38,8 @@ C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait 
 Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
 La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 ```
+
+* [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
 -----------------------
 
 ###### J-IV : Bootstrap, ou comment rendre ton site joli et resposiv
