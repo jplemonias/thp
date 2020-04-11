@@ -64,11 +64,16 @@ Aprés nous avoir donner des astuces marketing pour bien savoir vendre un concep
 nous devions coder un "Landing Page" ( page de présentation ) d'une idée révolutionnaire de site internet.
 
 ```
-Je poste ma page perso et mon C.V. en guise de réalisation... t'as capté l'idée ?
+Je poste ma page perso et mon C.V. en guise de réalisation...
 ```
 
 * [Ma page perso](https://jplemonias.github.io/thp/J5/index.html)
 * [Mon C.V.](https://jplemonias.github.io/thp/J5/cv.html)
+
+```
+Cela m'a permis de pouvoir aider mes confraire voguant en heau trouble sur certains point de l'HTML et du CSS<br>
+où je me sentais plus à l'aise.
+```
 ----------------------
 
 
