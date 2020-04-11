@@ -58,7 +58,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 * For help [TheBackGroundProject](https://jplemonias.github.io/thp/bootstrap/help.html)
 -----------------------
 
-###### J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
+###### :rage1: J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
 
 ???
 
@@ -70,7 +70,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 
 ## Semaine II - Fullstack web
 
-###### J-IIX : Introductions et début
+###### :rage1: J-IIX : Introductions et début
 
 ???
 
@@ -79,7 +79,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-IX : Itsa me, Mario !
+###### :rage2: J-IX : Itsa me, Mario !
 
 ???
 
@@ -88,7 +88,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-X : Ruby basics (1/2)
+###### :rage2: J-X : Ruby basics (1/2)
 
 ???
 
@@ -97,7 +97,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-XI : Ruby basics (2/2)
+###### :rage3: J-XI : Ruby basics (2/2)
 
 ???
 
@@ -106,7 +106,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-XII : Journée kata
+###### :rage3: J-XII : Journée kata
 
 ???
 
@@ -116,7 +116,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ----------------------
 
 ## Semaine III
-###### J-XIII
+###### :rage4: J-XIII
 
 ???
 
@@ -125,7 +125,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-IV
+###### :rage4: J-IV
 
 ???
 
