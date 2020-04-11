@@ -4,7 +4,7 @@
 
 ## Semaine I - Introduction
 
-###### :godmode: J-I : Ta première page web
+ :godmode: J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
 ```
