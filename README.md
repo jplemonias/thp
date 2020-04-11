@@ -1,5 +1,5 @@
 -----------------------
-# The Hackin Project #
+# The Hacking Project #
 -----------------------
 
 ## Semaine I - Introduction
@@ -27,7 +27,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 -----------------------
 
-### :suspect: J-III : Git, GitHub, le terminal, les réseaux : mettre son projet en ligne
+### :suspect: J-III : Git, GitHub :octocat:, le terminal, les réseaux : mettre son projet en ligne
 
 ```
 Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
@@ -60,10 +60,19 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 
 ### :rage1: J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
 
-???
+Aprés nous avoir donner des astuces marketing pour bien savoir vendre un concept ou une idée,<br>
+nous devions coder un "Landing Page" ( page de présentation ) d'une idée révolutionnaire de site internet.
 
 ```
-???
+Je poste ma page perso et mon C.V. en guise de réalisation...
+```
+
+* [Ma page perso](https://jplemonias.github.io/thp/J5/index.html)
+* [Mon C.V.](https://jplemonias.github.io/thp/J5/cv.html)
+
+```
+Cela m'a permis de pouvoir aider mes confrère voguant en eau trouble sur certains point de l'HTML et du CSS
+où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plus haut.
 ```
 ----------------------
 
