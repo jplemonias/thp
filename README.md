@@ -4,7 +4,7 @@
 
 ## Semaine I - Introduction
 
-###### J-I : Ta première page web
+###### <span style="height:24px">:godmode: J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
 ```
@@ -16,7 +16,7 @@ Mais aussi comment le web marche, et les bases de comment coder.
 * [BestMotherF*******Website](https://github.com/nof4o4)
 -----------------------
 
-###### J-II : Refaire Google : à toi les milliards
+###### :godmode: J-II : Refaire Google : à toi les milliards
 
 C'est l'heure de ton premier véritable projet ! 
 
@@ -27,22 +27,22 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 -----------------------
 
-###### J-III : Git, GitHub, le terminal, les réseaux : mettre son projet en ligne
+###### :suspect: J-III : Git, GitHub, le terminal, les réseaux : mettre son projet en ligne
 
 ```
 Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
 ```
 
-C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir...<br><br>Nop ???
+C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir :eyes:...<br><br>Nop ???
 ```
 Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
 La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 ```
 
-* [Pagre Google réalisée](https://jplemonias.github.io/thp/google/)
+* [Page Google réalisée](https://jplemonias.github.io/thp/google/)
 -----------------------
 
-###### J-IV : Bootstrap, ou comment rendre ton site joli et responsiv
+###### :suspect: J-IV : Bootstrap, ou comment rendre ton site joli et responsiv
 
 Après avoir vu les bases de l'HTML et du CSS,
 
@@ -58,7 +58,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 * For help [TheBackGroundProject](https://jplemonias.github.io/thp/bootstrap/help.html)
 -----------------------
 
-###### J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
+###### :rage1: J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
 
 ???
 
@@ -70,7 +70,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 
 ## Semaine II - Fullstack web
 
-###### J-IIX : Introductions et début
+###### :rage1: J-IIX : Introductions et début
 
 ???
 
@@ -79,7 +79,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-IX : Itsa me, Mario !
+###### :rage2: J-IX : Itsa me, Mario !
 
 ???
 
@@ -88,7 +88,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-X : Ruby basics (1/2)
+###### :rage2: J-X : Ruby basics (1/2)
 
 ???
 
@@ -97,7 +97,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-XI : Ruby basics (2/2)
+###### :rage3: J-XI : Ruby basics (2/2)
 
 ???
 
@@ -106,7 +106,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-XII : Journée kata
+###### :rage3: J-XII : Journée kata
 
 ???
 
@@ -116,7 +116,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ----------------------
 
 ## Semaine III
-###### J-XIII
+###### :rage4: J-XIII
 
 ???
 
@@ -125,7 +125,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-IV
+###### :rage4: J-IV
 
 ???
 
@@ -134,7 +134,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-V
+###### :goberserk: J-V
 
 ???
 
@@ -143,7 +143,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-VI
+###### :goberserk: J-VI
 
 ???
 
@@ -152,7 +152,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 ```
 -----------------------
 
-###### J-VII
+###### :finnadie: J-VII
 
 ???
 
@@ -168,4 +168,4 @@ Date semaine une jour un:<br>
 
 Remerciements:
 
-* [TheHackinPproject](https://www.thehackingproject.org/) :shipit:
+* [TheHackingPproject](https://www.thehackingproject.org/) :shipit:
