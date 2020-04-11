@@ -72,7 +72,7 @@ Je poste ma page perso et mon C.V. en guise de réalisation...
 
 ```
 Cela m'a permis de pouvoir aider mes confrère voguant en eau trouble sur certains point de l'HTML et du CSS
-où je me sentais plus à l'aise.
+où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plus haut.
 ```
 ----------------------
 
