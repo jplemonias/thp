@@ -2,7 +2,7 @@
 # The Hacking Project #
 -----------------------
 
-![Octocat Perso](https://raw.githubusercontent.com/jplemonias/thp/master/img/octocats.png)
+![Octocat Perso](https://raw.githubusercontent.com/jplemonias/thp/master/img/octocatperso.png)
 
 ## Semaine I - Introduction
 
