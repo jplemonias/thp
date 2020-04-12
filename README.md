@@ -4,7 +4,7 @@
 
 ## Semaine I - Introduction
 
-### ![GitHub Logo](https://github.githubassets.com/images/icons/emoji/godmode.png) J-I : Ta première page web
+### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png) J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
 ```
