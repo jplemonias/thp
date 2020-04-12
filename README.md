@@ -11,7 +11,7 @@
 C'est le premier jour ! Youpiiiiiii
 
 Après quelques introductions à THP, nous avons vu comment réaliser sa première page web.<br>
-Mais aussi comment le web marche, et les bases de comment coder.
+Mais aussi comment le web fonctione, et les bases de comment coder.
 
 * [MotherF*******Website](https://jplemonias.github.io/thp/tmfp/)
 * [BetterMotherF*******Website](https://jplemonias.github.io/thp/tmfp/better.html)
@@ -20,10 +20,10 @@ Mais aussi comment le web marche, et les bases de comment coder.
 
  ### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png) J-II : Refaire Google : à toi les milliards :computer: 
 
-C'est l'heure de ton premier véritable projet ! 
+C'est l'heure de notre premier véritable projet ! 
 
 
-Nous avons dû recréer la très célèbre page d'accueil de Google.Pour aider,<br>
+Nous avons dû recréer la très célèbre page d'accueil de Google. Pour aider,<br>
 les outils tels que d'inspection d'éléments nous à été présenté.
 
 
@@ -46,10 +46,10 @@ La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 
 ### ![Logo Doom suspect 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/suspect38.png) J-IV : Bootstrap, ou comment rendre ton site joli et responsiv
 
-Après avoir vu les bases de l'HTML et du CSS,
+Ayant vu les bases de l'HTML et du CSS,
 
 
-Nous avons vu Bootstrap, un puissant framework (ou une puissante boite à :cookie: alza )<br>
+Nous avons abordé Bootstrap, un puissant framework (ou une puissante boite à :cookie: alza )<br>
 qui permet une mise en page tout en respectant les conventions du web moderne.
 
 
