@@ -95,7 +95,7 @@ Tu vas attaquer le vif de la formation en découvrant l'univers des langages de 
 Nous avons vu le langage de programmation Ruby, et on dû réaliser la fameuse pyramide de Mario !<br>
 nous devions créer un programe générant des étages comprse entre 1 et 25<br><br>
 #### Rendu attendu 1<br>Saisie par l'utilisateur : 5<br>
-##&nbsp;X<br>&nbsp;XX<br>&nbsp;XXX<br>&nbsp;XXXX<br>&nbsp;XXXXX<br><br>
+## &nbsp;X<br>&nbsp;XX<br>&nbsp;XXX<br>&nbsp;XXXX<br>&nbsp;XXXXX<br><br>
 #### Rendu attendu 2<br>Saisie par l'utilisateur : 5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XX<br>
