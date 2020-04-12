@@ -102,11 +102,11 @@ Rendu attendu 1<br>Saisie par l'utilisateur : 5<br>
  5| *****<br><br>
 Rendu attendu 2<br>
 Saisie par l'utilisateur : 5<br>
- 1|     #<br>
- 2|    ##<br>
- 3|   ###<br>
- 4|  ####<br>
- 5| ##### <br>
+ 1|     *<br>
+ 2|    **<br>
+ 3|   ***<br>
+ 4|  ****<br>
+ 5| ***** <br>
 -----------------------
 
 ###### ![Logo Doom rage2 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-X : Ruby basics (1/2) :pencil2:
