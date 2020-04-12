@@ -62,7 +62,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 
 ### ![Logo Doom rage1 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
 
-Aprés nous avoir donner des astuces marketing pour bien savoir vendre un concept ou une idée,<br>
+Après nous avoir donner des astuces marketing pour bien savoir vendre un concept ou une idée,<br>
 nous devions coder un "Landing Page" ( page de présentation ) d'une idée révolutionnaire de site internet.
 
 
@@ -83,8 +83,8 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 
 ### ![Logo Doom rage1 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) J-IIX : Introductions et début
 
-Nou avons approfondit l'utilisation du terminal, Git et Github en groupe<br>
-afin de nous premarer aux pull et push connus.<br><br>
+Nous avons approfondit l'utilisation du terminal, Git et Github en groupe<br>
+afin de nous préparer aux pull et push connus.<br><br>
 Nous avons surtout mis à jour nos installations des nouveaux programes instalés pour être d'attaque pour la formation.
 
 -----------------------
