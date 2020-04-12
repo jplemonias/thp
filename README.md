@@ -102,7 +102,7 @@ Rendu attendu 1<br>Saisie par l'utilisateur : 5<br>
  XXXXX<br><br>
 Rendu attendu 2<br>
 Saisie par l'utilisateur : 5<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp.X<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XX<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXX<br>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXX<br>
