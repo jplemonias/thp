@@ -16,7 +16,7 @@ Mais aussi comment le web marche, et les bases de comment coder.
 * [BestMotherF*******Website](https://github.com/nof4o4)
 -----------------------
 
- ### J-II : Refaire Google : à toi les milliards :godmode: :computer:
+ ### J-II : Refaire Google : à toi les milliards :computer: :godmode: 
 
 C'est l'heure de ton premier véritable projet ! 
 
