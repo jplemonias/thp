@@ -1,5 +1,5 @@
 -----------------------
-# The Hacking Project![Octocat Perso](https://raw.githubusercontent.com/jplemonias/thp/master/bootstrap/public/img/thp32.png) #
+# The Hacking Project ![Octocat Perso](https://raw.githubusercontent.com/jplemonias/thp/master/bootstrap/public/img/thp32.png) #
 -----------------------
 
 ![Octocat Perso](https://raw.githubusercontent.com/jplemonias/thp/master/img/octocatperso.png)
