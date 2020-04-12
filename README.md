@@ -102,7 +102,7 @@ Rendu attendu 1<br>Saisie par l'utilisateur : 5<br>
  | *****<br><br>
 Rendu attendu 2<br>
 Saisie par l'utilisateur : 5<br>
- |     *<br>
+ |&bnps;&bnps;&bnps;&bnps;*<br>
  |    **<br>
  |   ***<br>
  |  ****<br>
