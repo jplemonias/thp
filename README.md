@@ -97,8 +97,8 @@ nous devions créer un programe générant des étages comprse entre 1 et 25
 
 Rendu attendu 1
 Saisie par l'utilisateur : 5
- *
- **
+ \*
+ \*\*
  ***
  ****
  *****
