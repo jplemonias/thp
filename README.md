@@ -85,17 +85,30 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 
 Nous avons approfondit l'utilisation du terminal, Git et Github en groupe<br>
 afin de nous préparer aux pull et push connus.<br><br>
-Nous avons surtout mis à jour nos installations des nouveaux programes instalés pour être d'attaque pour la formation.
+Nous avons surtout mis à jour nos installations des nouveaux programmes installés pour être d'attaque pour la formation.
 
 -----------------------
 
 ###### ![Logo Doom rage2 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-IX : Itsa me, Mario ! :computer:
 
-???
+Tu vas attaquer le vif de la formation en découvrant l'univers des langages de programmation.
+Nous avons vu le langage de programmation Ruby, et on dû réaliser la fameuse pyramide de Mario !
+nous devions créer un programe générant des étages comprse entre 1 et 25
 
-
-???
-
+Rendu attendu 1
+Saisie par l'utilisateur : 5
+#
+##
+###
+####
+#####
+Rendu attendu 2
+Saisie par l'utilisateur : 5
+    #
+   ##
+  ###
+ ####
+#####
 -----------------------
 
 ###### ![Logo Doom rage2 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-X : Ruby basics (1/2) :pencil2:
