@@ -4,7 +4,7 @@
 
 ## Semaine I - Introduction
 
-### <span style="height:24px">:godmode: J-I : Ta première page web
+### ![GitHub Logo](https://github.githubassets.com/images/icons/emoji/godmode.png) J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
 ```
@@ -16,7 +16,7 @@ Mais aussi comment le web marche, et les bases de comment coder.
 * [BestMotherF*******Website](https://github.com/nof4o4)
 -----------------------
 
-### :godmode: J-II : Refaire Google : à toi les milliards
+ ### J-II : Refaire Google : à toi les milliards :computer: :godmode: 
 
 C'est l'heure de ton premier véritable projet ! 
 
@@ -27,7 +27,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 -----------------------
 
-### :suspect: J-III : Git, GitHub :octocat:, le terminal, les réseaux : mettre son projet en ligne
+### :suspect: J-III : Git, GitHub :octocat:, le terminal, les réseaux : mettre son projet en ligne :pencil2:
 
 ```
 Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
@@ -88,7 +88,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage2: J-IX : Itsa me, Mario !
+###### :rage2: J-IX : Itsa me, Mario ! :computer:
 
 ???
 
@@ -97,7 +97,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage2: J-X : Ruby basics (1/2)
+###### :rage2: J-X : Ruby basics (1/2) :pencil2:
 
 ???
 
@@ -106,7 +106,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage3: J-XI : Ruby basics (2/2)
+###### :rage3: J-XI : Ruby basics (2/2) :computer:
 
 ???
 
@@ -115,7 +115,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage3: J-XII : Journée kata
+###### :rage3: J-XII : Journée kata :pencil2:
 
 ???
 
@@ -169,7 +169,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ???
 ```
 ----------------------
-
+TP: :computer: , correction : :pencil2:
 Date semaine une jour un:<br>
 30 / 03 / 2020
 
