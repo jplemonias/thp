@@ -89,7 +89,7 @@ Nous avons surtout mis à jour nos installations des nouveaux programmes install
 
 -----------------------
 
-###### ![Logo Doom rage2 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-IX : Itsa me, Mario ! :computer:
+### ![Logo Doom rage2 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-IX : Itsa me, Mario ! :computer:
 
 Tu vas attaquer le vif de la formation en découvrant l'univers des langages de programmation.<br>
 Nous avons vu le langage de programmation Ruby, et on dû réaliser la fameuse pyramide de Mario !<br>
