@@ -95,21 +95,20 @@ Tu vas attaquer le vif de la formation en découvrant l'univers des langages de 
 Nous avons vu le langage de programmation Ruby, et on dû réaliser la fameuse pyramide de Mario !<br>
 nous devions créer un programe générant des étages comprse entre 1 et 25<br><br>
 #### Rendu attendu 1<br>Saisie par l'utilisateur : 5<br>
-## &nbsp;X<br>&nbsp;XX<br>&nbsp;XXX<br>&nbsp;XXXX<br>&nbsp;XXXXX<br><br>
+&nbsp;X<br>&nbsp;XX<br>&nbsp;XXX<br>&nbsp;XXXX<br>&nbsp;XXXXX<br><br>
 #### Rendu attendu 2<br>Saisie par l'utilisateur : 5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XX<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXX<br>
 &nbsp;&nbsp;&nbsp;XXXX<br>
 &nbsp;XXXXX<br>
+
 -----------------------
 
 ###### ![Logo Doom rage2 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-X : Ruby basics (1/2) :pencil2:
 
-???
-
-
-???
+Aujourd'hui, c'est au tour des méthode et des boucless Ruby.<br>
+Autour de petits des petits exercices de programmation à résoudre.
 
 -----------------------
 
