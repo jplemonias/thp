@@ -37,7 +37,7 @@ Après une première matinée de corrections entre pairs, soit à réaliser deux
 
 C'est bien de coder, mais c'est encore mieux si toute la terre entière pouvait voir :eyes:...<br><br>Nop ???
 
-Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.
+Nos magnifiques réalisations, seront mise en ligne à laide de  Git et GitHub.<br>
 La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 
 
@@ -49,7 +49,7 @@ La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 Après avoir vu les bases de l'HTML et du CSS,
 
 
-Nous avons vu Bootstrap, un puissant framework (ou une puissante boite à :cookie: alza )
+Nous avons vu Bootstrap, un puissant framework (ou une puissante boite à :cookie: alza )<br>
 qui permet une mise en page tout en respectant les conventions du web moderne.
 
 
@@ -73,7 +73,7 @@ Je poste ma page perso et mon C.V. en guise de réalisation...
 * [Mon C.V.](https://jplemonias.github.io/thp/J5/cv.html)
 
 
-Cela m'a permis de pouvoir aider mes confrère voguant en eau trouble sur certains point de l'HTML et du CSS
+Cela m'a permis de pouvoir aider mes confrère voguant en eau trouble sur certains point de l'HTML et du CSS<br>
 où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plus haut.
 
 ----------------------
