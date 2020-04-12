@@ -81,12 +81,11 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 
 ## Semaine II - Fullstack web<br>Introduction au Code
 
-###### ![Logo Doom rage1 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) J-IIX : Introductions et début
+### ![Logo Doom rage1 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) J-IIX : Introductions et début
 
-???
-
-
-???
+Nou avons approfondit l'utilisation du terminal, Git et Github en groupe<br>
+afin de nous premarer aux pull et push connus.<br><br>
+Nous avons surtout mis à jour nos installations des nouveaux programes instalés pour être d'attaque pour la formation.
 
 -----------------------
 
