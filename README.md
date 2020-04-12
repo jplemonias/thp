@@ -91,17 +91,15 @@ Nous avons surtout mis à jour nos installations des nouveaux programmes install
 
 ###### ![Logo Doom rage2 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-IX : Itsa me, Mario ! :computer:
 
-Tu vas attaquer le vif de la formation en découvrant l'univers des langages de programmation.
-Nous avons vu le langage de programmation Ruby, et on dû réaliser la fameuse pyramide de Mario !
-nous devions créer un programe générant des étages comprse entre 1 et 25
-
-Rendu attendu 1
-Saisie par l'utilisateur : 5
- |*
- |**
- |***
- |****
- |*****
+Tu vas attaquer le vif de la formation en découvrant l'univers des langages de programmation.<br>
+Nous avons vu le langage de programmation Ruby, et on dû réaliser la fameuse pyramide de Mario !<br>
+nous devions créer un programe générant des étages comprse entre 1 et 25<br><br>
+Rendu attendu 1<br>Saisie par l'utilisateur : 5<br>
+ 1| *<br>
+ 2| **<br>
+ 3| ***<br>
+ 4| ****<br>
+ 5| *****<br>
 Rendu attendu 2
 Saisie par l'utilisateur : 5
     *
