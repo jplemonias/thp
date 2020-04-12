@@ -4,7 +4,7 @@
 
 ## Semaine I - Introduction
 
-### <span style="height:24px">:godmode: J-I : Ta première page web
+### <span style="height:24px">:godmode:<span> J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
 ```
@@ -16,7 +16,7 @@ Mais aussi comment le web marche, et les bases de comment coder.
 * [BestMotherF*******Website](https://github.com/nof4o4)
 -----------------------
 
- :godmode:### J-II : Refaire Google : à toi les milliards :computer:
+ ### J-II : Refaire Google : à toi les milliard :godmode:s :computer:
 
 C'est l'heure de ton premier véritable projet ! 
 
