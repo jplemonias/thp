@@ -4,7 +4,7 @@
 
 ## Semaine I - Introduction
 
-### ![GitHub Logo](https://github.githubassets.com/images/icons/emoji/godmode.png) J-I : Ta première page web
+### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png) J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
 ```
@@ -16,7 +16,7 @@ Mais aussi comment le web marche, et les bases de comment coder.
 * [BestMotherF*******Website](https://github.com/nof4o4)
 -----------------------
 
- ### J-II : Refaire Google : à toi les milliards :computer: :godmode: 
+ ### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png) J-II : Refaire Google : à toi les milliards :computer: 
 
 C'est l'heure de ton premier véritable projet ! 
 
@@ -27,7 +27,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 -----------------------
 
-### :suspect: J-III : Git, GitHub :octocat:, le terminal, les réseaux : mettre son projet en ligne :pencil2:
+### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/suspect38.png) J-III : Git, GitHub :octocat:, le terminal, les réseaux : mettre son projet en ligne :pencil2:
 
 ```
 Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
@@ -42,7 +42,7 @@ La méthode présenté est celle par le terminal. ( wsl + Ubuntu )
 * [Page Google réalisée](https://jplemonias.github.io/thp/google/)
 -----------------------
 
-### :suspect: J-IV : Bootstrap, ou comment rendre ton site joli et responsiv
+### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/suspect38.png) J-IV : Bootstrap, ou comment rendre ton site joli et responsiv
 
 Après avoir vu les bases de l'HTML et du CSS,
 
@@ -58,7 +58,7 @@ Résultat basé sur des "photos"( sans outils inspecter :trollface: )
 * For help [TheBackGroundProject](https://jplemonias.github.io/thp/bootstrap/help.html)
 -----------------------
 
-### :rage1: J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
+### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) J-V : Réalise le site de présentation de ta startup ou de ton association étudiante !
 
 Aprés nous avoir donner des astuces marketing pour bien savoir vendre un concept ou une idée,<br>
 nous devions coder un "Landing Page" ( page de présentation ) d'une idée révolutionnaire de site internet.
@@ -79,7 +79,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 
 ## Semaine II - Fullstack web
 
-###### :rage1: J-IIX : Introductions et début
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage138.png) J-IIX : Introductions et début
 
 ???
 
@@ -88,7 +88,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage2: J-IX : Itsa me, Mario ! :computer:
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-IX : Itsa me, Mario ! :computer:
 
 ???
 
@@ -97,7 +97,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage2: J-X : Ruby basics (1/2) :pencil2:
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage238.png) J-X : Ruby basics (1/2) :pencil2:
 
 ???
 
@@ -106,7 +106,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage3: J-XI : Ruby basics (2/2) :computer:
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage338.png) J-XI : Ruby basics (2/2) :computer:
 
 ???
 
@@ -115,7 +115,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage3: J-XII : Journée kata :pencil2:
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage338.png) J-XII : Journée kata :pencil2:
 
 ???
 
@@ -125,7 +125,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ----------------------
 
 ## Semaine III
-###### :rage4: J-XIII
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage438.png) J-XIII
 
 ???
 
@@ -134,7 +134,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :rage4: J-IV
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage438.png) J-IV
 
 ???
 
@@ -143,7 +143,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :goberserk: J-V
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/goberserk38.png) J-V
 
 ???
 
@@ -152,7 +152,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :goberserk: J-VI
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/goberserk38.png) J-VI
 
 ???
 
@@ -161,7 +161,7 @@ où je me sentais plus à l'aise. Et de fournir la page TheBackGroundProject plu
 ```
 -----------------------
 
-###### :finnadie: J-VII
+###### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/finnadie38.png) J-VII
 
 ???
 
