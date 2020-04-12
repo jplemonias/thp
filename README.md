@@ -9,10 +9,10 @@
 ### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png) J-I : Ta première page web
 
 C'est le premier jour ! Youpiiiiiii
-```
-Après quelques introductions à THP, nous avons vu comment réaliser sa première page web.
+
+Après quelques introductions à THP, nous avons vu comment réaliser sa première page web.<br>
 Mais aussi comment le web marche, et les bases de comment coder.
-```
+
 * [MotherF*******Website](https://jplemonias.github.io/thp/tmfp/)
 * [BetterMotherF*******Website](https://jplemonias.github.io/thp/tmfp/better.html)
 * [BestMotherF*******Website](https://github.com/nof4o4)
@@ -22,10 +22,10 @@ Mais aussi comment le web marche, et les bases de comment coder.
 
 C'est l'heure de ton premier véritable projet ! 
 
-```
-Nous avons dû recréer la très célèbre page d'accueil de Google.Pour aider,
+
+Nous avons dû recréer la très célèbre page d'accueil de Google.Pour aider,<br>
 les outils tels que d'inspection d'éléments nous à été présenté.
-```
+
 
 -----------------------
 
