@@ -121,7 +121,7 @@ Il sagit d'un projet validant et coder un petit algorithme de cryptomonnaie.
 
 ###### ![Logo Doom rage3 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/rage338.png) J-XII : Journée kata :pencil2:
 
-Journée tryhard...[![codewar](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://www.codewars.com/)
+Journée tryhard...[![codewar](https://raw.githubusercontent.com/jplemonias/thp/master/bootstrap/public/img/codewar.png)](https://www.codewars.com/)
 
 ----------------------
 
