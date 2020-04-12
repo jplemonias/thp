@@ -15,7 +15,7 @@ Mais aussi comment le web fonctione, et les bases de comment coder.
 
 * [MotherF*******Website](https://jplemonias.github.io/thp/tmfp/)
 * [BetterMotherF*******Website](https://jplemonias.github.io/thp/tmfp/better.html)
-* [BestMotherF*******Website](https://github.com/nof4o4)
+* [BestMotherF*******Website](https://jplemonias.github.io/thp/tmfp/best.html)
 -----------------------
 
  ### ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/godmode38.png) J-II : Refaire Google : à toi les milliards :computer: 
