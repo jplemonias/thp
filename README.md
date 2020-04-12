@@ -29,7 +29,7 @@ les outils tels que d'inspection d'éléments nous à été présenté.
 
 -----------------------
 
-### ![Logo Doom suspect 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/suspect38.png) J-III : Git, ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/octocat8.png), le terminal, les réseaux : mettre son projet en ligne :pencil2:
+### ![Logo Doom suspect 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/suspect38.png) J-III : Git, ![Logo Doom godmod 38px](https://raw.githubusercontent.com/jplemonias/thp/master/img/octocat38.png), le terminal, les réseaux : mettre son projet en ligne :pencil2:
 
 ```
 Après une première matinée de corrections entre pairs, soit à réaliser deux correction et en subir deux aussi.
