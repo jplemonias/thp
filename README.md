@@ -178,4 +178,4 @@ Date semaine une jour un:<br>
 
 Remerciements:
 
-* [TheHackingPproject](https://www.thehackingproject.org/) ![Octocat Perso](https://raw.githubusercontent.com/jplemonias/thp/master/bootstrap/public/img/thp32.png)
+* 🏴&zwj;☠️ [TheHackingPproject](https://www.thehackingproject.org/) ![Octocat Perso](https://raw.githubusercontent.com/jplemonias/thp/master/bootstrap/public/img/thp32.png)
