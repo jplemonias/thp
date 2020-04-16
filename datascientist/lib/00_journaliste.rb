@@ -44,10 +44,6 @@ j=["@jcunniet","@PaulLampon","@Aziliz31","@ssoumier","@marionsouzeau","@gaellomb
 "@epenser","@JAGventeprivee","@frwrds","@Laure__Bourdon","@Xavier75","@maximeverner","@s_jourdain","@LoriHelloc"]
 def lsit
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a14af366c6ca59a09440d63feea361a7f7ea3612
 puts " Quel est ton nom de famille ?"
 print "> "
 puts " "+"-" * 60
@@ -103,9 +99,7 @@ puts print j.sort_by {|z|z.downcase}
 puts " "+"-" * 60
 puts " "
 puts " "+"-" * 60
-<<<<<<< HEAD
-puts "> Voici la liste par ordre alphabetique:"
-=======
+
 puts "> Voici la liste par ordre alphabetique:"
 =begin
 for i in 1..50
@@ -120,4 +114,5 @@ il y a 379 journalistes
 215
 72
 =end
->>>>>>> a14af366c6ca59a09440d63feea361a7f7ea3612
+# Psycho@ctiF
+#     Pe@cE
